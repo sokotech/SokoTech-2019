@@ -1,0 +1,22 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.about }}
+
+    {{ partial "0_1_page_head.html" . }}
+
+  <body>
+
+	{{ partial "2_0_about_header.html" . }}
+
+	{{ partial "2_1_about_description.html" . }}
+
+  <!--- footer ------->
+
+    {{ partial "0_1_page_footer.html" . }}
+
+  	{{ partial "0_1_page_js.html" . }}
+
+  </body>
+</html>
+
+{{ end }}

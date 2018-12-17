@@ -1,0 +1,27 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.space }}
+
+    {{ partial "0_1_page_head.html" . }}
+
+  <body>
+
+	{{ partial "7_0_space_header.html" . }}
+
+  {{ partial "7_1_space_description.html" . }}
+
+  {{ partial "7_2_space_details.html" . }}
+
+  {{ partial "7_3_space_more_info.html" . }}
+
+<!--- footer ------->
+
+  {{ partial "0_1_page_footer.html" . }}
+
+	{{ partial "0_1_page_js.html" . }}
+
+
+  </body>
+</html>
+
+{{ end }}

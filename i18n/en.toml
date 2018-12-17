@@ -1,0 +1,14 @@
+[about]
+other = "About"
+[education]
+other = "Education"
+[events]
+other = "Events"
+[medialab]
+other = "Medialab"
+[fablab]
+other = "Fablab"
+[space]
+other = "Space"
+[history]
+other = "History"

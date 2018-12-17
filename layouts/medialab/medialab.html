@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.medialab }}
+
+    {{ partial "0_1_page_head.html" . }}
+
+  <body>
+
+	{{ partial "5_0_medialab_header.html" . }}
+
+	{{ partial "5_1_medialab_description.html" . }}
+
+	{{ partial "5_2_medialab_photo_buttons.html" . }}
+
+  {{ partial "5_3_medialab_work_method.html" . }}
+
+  {{ partial "5_4_medialab_more_info.html" . }}
+
+<!--- footer ------->
+
+  {{ partial "0_1_page_footer.html" . }}
+
+	{{ partial "0_1_page_js.html" . }}
+
+
+  </body>
+</html>
+
+{{ end }}

@@ -1,0 +1,69 @@
+enable   : true
+
+item :
+
+# BG sections
+
+  BgTitle : SokoTech
+  BgDescription : Enseña, organiza eventos, fabrica, diseña y desarrolla
+
+# OverlayNav
+
+  OverlayNavItemOne : Eventos
+  OverlayNavItemTwo : Aprende
+  OverlayNavItemThree : Crea
+  OverlayNavItemFour : Nosotros
+  OverlayNavItemFive : Contacto
+  OverlayNavItemSix : Idioma
+  OverlayNavItemSeven : Contacto
+  OverlayNavItemEight : Nosotros
+  OverlayNavItemNine : Historia
+  OverlayNavItemTen : ¿Tienes preguntas?
+
+# StickyNav
+
+  StNavItemOne : Eventos
+  StNavItemTwo : Aprende
+  StNavItemThree : Crea
+  StNavItemFour : Nosotros
+  StNavItemFive : Contacto
+  StNavItemSix : Idioma
+
+# IconsNav
+
+  IcoNavItemOne : Educacion
+  IcoNavItemTwo : Eventos
+  IcoNavItemThree : MediaLab
+  IcoNavItemFour : FabLab
+  IcoNavItemFive : Espacio
+  IcoNavItemSix : Contacto
+
+# HomeDescription
+
+  HomeDescriptionTitle : Vuela con SokoTech
+  HomeDescriptionText : SokoTech es una fábrica de ideas en la cual todo el mundo puede colaborar, aprender, diseñar. Gracias a nuestras instalaciones, la FabLab y MediaLab tenemos la posibilidad de materializar las ideas. Además, de organizar eventos para la divulgación de la tecnología, matemáticas y ciencia.
+  HomeDescriptionButton : Leer más...
+
+# HomePhotoButtons
+
+  HomePhotoButtonsTitleOne : Cursos
+  HomePhotoButtonsOverlayTitleOne : Cursos
+  HomePhotoButtonsOverlayTextOne : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  HomePhotoButtonsTitleTwo : Instalaciones
+  HomePhotoButtonsOverlayTitleTwo : Instalaciones
+  HomePhotoButtonsOverlayTextTwo : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  HomePhotoButtonsTitleThree : Eventos
+  HomePhotoButtonsOverlayTitleThree : Eventos
+  HomePhotoButtonsOverlayTextThree : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  HomePhotoButtonsTitleFour : FabLab
+  HomePhotoButtonsOverlayTitleFour : FabLab
+  HomePhotoButtonsOverlayTextFour : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  # HomeEvents
+
+  HomeEventsTitle : Tu Evento
+  HomeEventsText : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  HomeEventsButton : Leer más...

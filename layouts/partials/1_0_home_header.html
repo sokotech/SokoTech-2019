@@ -1,0 +1,197 @@
+
+<header class="header-section-home">
+
+	<!-- sticky nav -->
+
+		<div class="main-navigation-home">
+			<nav class="navbar navbar-default navbar-fixed-top navbar-home">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href=""> <img src="../img/01/logo-black.svg" alt="sokotech"> </a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="events">{{ .item.StNavItemOne }}</a></li>
+							<li><a href="education">{{ .item.StNavItemTwo }}</a></li>
+							<li><a href="fablab">{{ .item.StNavItemThree }}</a></li>
+							<li><a href="about">{{ .item.StNavItemFour }}</a></li>
+							<li><a href="#contact">{{ .item.StNavItemFive }}</a></li>
+							<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .item.StNavItemSix }}<span class="caret"></span></a>
+	          <ul class="dropdown-menu" id="lang-selector">
+							{{ range $.Site.AllTranslations }}
+							<li><a href="{{ .Permalink }}">{{ .Language.name }}</a></li>
+							{{ end }}
+	           <!--  <li><a href="#">CAT</a></li>
+	            <li><a href="#">ES</a></li>
+	            <li><a href="#">ENG</a></li> -->
+	          </ul>
+	        </li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div><!-- /.main navigation -->
+
+	<!-- end of sticky nav -->
+
+
+		<div class="bg_img">
+
+			<a href="#"><img class="logo"  src="../img/01/logo.svg"></a>
+
+			<img class="img-responsive" id="bg-icons-background" src="../img/01/bg.svg"/>
+
+
+			<div class="container-fluid" id="bg-icons-grid">
+
+				  	<div class="row">
+
+				  	    <div class="col-md-2 col-sm-4 col-xs-4  " id="bg_icons_2_element">
+
+						  	<a href="education"><img  src="../img/01/i_edu.svg"> <h3>{{ .item.IcoNavItemOne }}</h3></a>
+
+				  	    </div> <!--col -->
+
+
+				  	    <div class="col-md-2 col-sm-4 col-xs-4  " id="bg_icons_2_element">
+
+						  	<a href="events"><img  src="../img/01/i_eve.svg"> <h3>{{ .item.IcoNavItemTwo }}</h3></a>
+
+				  	    </div> <!--col -->
+
+
+				  	    <div class="col-md-2 col-sm-4 col-xs-4  " id="bg_icons_2_element">
+
+						  	<a href="medialab"><img  src="../img/01/i_ml.svg"><h3>{{ .item.IcoNavItemThree }}</h3></a>
+
+				  	    </div> <!--col -->
+
+                <div class="clearfix  visible-sm visible-xs"></div>
+
+				  	    <div class="col-md-2 col-sm-4 col-xs-4  " id="bg_icons_2_element">
+
+						  	<a href="fablab"><img  src="../img/01/i_fl.svg"> <h3>{{ .item.IcoNavItemFour }}</h3></a>
+
+				  	    </div> <!--col -->
+
+
+				  	    <div class="col-md-2 col-sm-4 col-xs-4  " id="bg_icons_2_element">
+
+						  	<a href="space"><img  src="../img/01/i_esp.svg"> <h3>{{ .item.IcoNavItemFive }}</h3></a>
+
+				  	    </div> <!--col -->
+
+
+								<div class="col-md-2 col-sm-4 col-xs-4  " id="bg_icons_2_element">
+
+							  <a href="#contact"><img  src="../img/01/i_esp.svg"> <h3>{{ .item.IcoNavItemSix }}</h3></a>
+
+							  </div> <!--col -->
+
+
+
+				  	</div> <!--row-->
+
+			    </div> <!--bg-icons-->
+
+
+
+
+					<div class="container" id="container-st-headline">
+
+						<div class="st_headline" align="center">
+									<h1>{{ .item.BgTitle }}</h1>
+
+									<div class="subhead">
+										<h4>{{ .item.BgDescription }}</h4>
+										</div> <!--subhead-->
+
+										<a id="st-headline-scroll" href="#scroll-anchor">
+
+										 <div class="arrow">
+
+													<p class="tscr">scroll</p>
+
+											<img width="20px" src="../img/01/arrow.svg"/>
+
+												</div> <!-- arrow -->
+										</a> <!-- #s3 -->
+
+									</div> <!-- st headline -->
+
+					</div>
+
+
+<!--- foldout-menu ------------------------>
+
+		  	    <input type="checkbox" id="op"></input>
+
+	            <div class="lower">
+
+		            <label for="op"> <img class="bg_menu"  src="../img/01/menu.svg"><p class="tmen">Menu</p></label>
+
+	            </div> <!-- lower -->
+
+
+
+
+	            <div class="overlay overlay-hugeinc">
+
+						    <label for="op"></label>
+
+						    <nav>
+								<ul>
+									<li><a href="#">{{ .item.OverlayNavItemOne }}</a></li>
+									<li><a href="education">{{ .item.OverlayNavItemTwo }}</a></li>
+									<li><a href="events">{{ .item.OverlayNavItemThree }}</a></li>
+									<li><a href="medialab">{{ .item.OverlayNavItemFour }}</a></li>
+									<li><a href="fablab">{{ .item.OverlayNavItemFive }}</a></li>
+									<li><a href="space">{{ .item.OverlayNavItemSix }}</a></li>
+								</ul>
+
+
+								<div class="square">
+
+									  <div class="square-subnav-item-1">
+									  	<h6><a href="#contact">{{ .item.OverlayNavItemSeven }}</a></h6>
+									  </div>
+										<div class="square-subnav-item-2">
+											<h6><a href="about">{{ .item.OverlayNavItemEight }}</a></h6>
+										</div>
+										<div class="square-subnav-item-3">
+											<h6><a href="history">{{ .item.OverlayNavItemNine }}</a></h6>
+										</div>
+
+								</div>  <!-- square -->
+
+
+								<div class="contact">
+
+										<h6 id="contact-1">{{ .item.OverlayNavItemTen }}</h6>
+										<h6 id="soko-mail"><a href="mailto:hello@soko.tech">Hello@soko.tech</a></h6>
+										<h6 id="contact-2"><a href="tel:=34937638578"> +34 93 763 85 78</a></h6>
+										<h6 id="contact-3"><a href="https://wa.me/34699571897"> +34 699 571 897</a></h6>
+
+								</div>
+
+
+				    </nav>
+
+	            </div> <!-- overlay overlay-hugeinc -->
+
+<!--- foldout-menu ------------------------>
+
+		</div> <!--bg-img-->
+
+</header> <!--header-section-->
