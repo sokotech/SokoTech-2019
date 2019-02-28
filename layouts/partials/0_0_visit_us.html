@@ -1,39 +1,41 @@
 <div class="visit-us">
-	
+
 	<div class="container-fluid">
-		
-		
+
+
 		<div class="box-shadows">
-					  				
+
 			<div class="box-content">
-				
+
 				<h2>Ven a Conocernos</h2>
-				
+
 				<hr>
-				
+
 				<p> Prefieres escuchar, hablar y conocer de primera mano lo que hacemos y cómo. Todos los primeros viernes de mes abrimos las puertas para ti. Recomendamos la asistencia en los horarios fijados para atenderte mejor.</p>
-				
+
 				<a href="mailto:hello@soko.tech?subject=Visita Guiada"><button class="b-outlined">Avisa</button></a>
-					  					 
+
 			</div> <!--box-content-->
-			
+
 		</div> <!--box-shadows-->
 
-		
+
 		<div class="map">
-			
+
 			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-			
+
 				<div id="box-map">
-					<div id='gmap_canvas'>
+					<div id='gmap_canvas'></div>
 				</div>
-					
+
 		</div> <!--map-->
-		
-		
-		<script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(41.42435,2.1888739999999416),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.42435,2.1888739999999416)});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-		
-			
+
+
+		<script type='text/javascript'>
+			function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(41.42435,2.1888739999999416),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.42435,2.1888739999999416)});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+		</script>
+
+
 	</div> <!--container-fluid-->
-	
+
 </div> <!--visit-us-->

@@ -2,7 +2,9 @@ baseURL = "localhost:1313"
 languageCode = "en-US"
 title = "SokoTech"
 #defaultContentLanguageInSubdir = true
-copyright = "© SokoTech"
+copyright = "SokoTech"
+
+DefaultContentLanguage = "en"
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -10,26 +12,27 @@ enableRobotsTXT = true
 googleAnalytics = ""
 
 
+
+
 [Languages]
 
     [Languages.es]
     weight = 1
     languageCode = "es-es"
-    name = "ES"
+    languageName = "ES"
     title = "SokoTech"
 
     [Languages.ca]
     weight = 2
     languageCode = "ca-ca"
-    name = "CA"
+    languageName = "CA"
     title = "SokoTech"
 
     [Languages.en]
     weight = 3
     languageCode = "en-en"
-    name = "EN"
+    languageName = "EN"
     title = "SokoTech"
-
 
 # --- Navigation Section -------------------------------------
 

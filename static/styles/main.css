@@ -60,9 +60,9 @@ hr{
 	height: 3px !important;
 	width: 50px !important;
 	background: #f27222 !important;
-	border-style: none !important;
+  order-style: none !important;
 	margin-bottom: 20px !important;
-
+  border-top: none;
 }
 
 button{
@@ -123,10 +123,9 @@ button{
 }
 
 .text-block-centered {
-  padding-top: 15%;
+  padding-top: 5%;
+  margin-top: -3%;
 }
-
-
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -160,8 +159,12 @@ button{
 
 
   .text-block-centered {
-    padding-top: 0%;
+    padding-top: 5%;
+    margin-bottom: 100%;
   }
+
+}
+
 
 }
 
@@ -254,11 +257,6 @@ button{
 
 /* ------------------ 1_0_home_Header ----------------------------------------- 1_0_home_Header ----------------- */
 
-
-
-.header-section-home {
-  height: 100%;
-}
 
 .logo{
 	position: absolute;
@@ -618,8 +616,116 @@ input{
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+/* phones */
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 500px) {
+
+  .logo{
+  	position: absolute;
+  	top: 25px;
+  	left: 25px;
+  	width: 1px;
+  }
+
+  #scroll-anchor {
+    display: block;
+    position: absolute;
+    top: 130%;
+  }
+
+  .st_headline {
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .st_headline h1{
+     font-size: 4em !important;
+  }
+
+  .overlay nav {
+    height: 25%;
+    top: 27%;
+}
+
+  .overlay ul li {
+  	display: block;
+  	height: 20%;
+  	height: calc(100% / 9);
+  	min-height: 48px;
+  }
+
+  .overlay ul li {
+  	  font-size: 0.8em;
+      margin-bottom: 5%;
+  }
+
+  .contact{
+  	margin-top:7%;
+  	font-size: 0.3em;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+  }
+
+  .contact h6{
+    font-weight: 400;
+    margin: 0 4%;
+  }
+
+
+  .square-subnav-item-1 h6 a, .square-subnav-item-2 h6 a, .square-subnav-item-3 h6 a{
+  	font-size: 1.7em;
+  }
+
+  .square {
+    display: flex;
+    width: 65%;
+  }
+
+  #contact-1, #soko-mail, #contact-2, #contact-3 {
+    font-size: 1.1em;
+  }
+
+
+
+  #bg-icons-grid {
+    top: 96%;
+    padding: 0 10%;
+    height: 15%;
+  }
+
+  #bg_icons_2_element img{
+  	width: 25%;
+  }
+
+
+  #bg_icons_2_element h3{
+  	font-size: 1.2em !important;
+  }
+
+  .bg-icons-background{
+    height: 35%;
+    top: 70%;
+   }
+
+   .bg-icons-background-page{
+     top: 87%;
+     display: block;
+     position: absolute;
+    }
+
+
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
+  .logo{
+  	position: absolute;
+  	top: 25px;
+  	left: 25px;
+  	width: 1px;
+  }
 
   #scroll-anchor {
     display: block;
@@ -884,8 +990,11 @@ input{
 	margin: 60% 0 20%;
 }
 
-.header-description-home {
-	margin: 10% 0 3%;
+
+.row-logos{
+  weight: auto;
+  margin-bottom: 15%;
+  margin-top: 3%;
 }
 
 .header-description-page {
@@ -894,6 +1003,7 @@ input{
 
 .text-block-centered {
 	text-align: center;
+  margin-bottom: 5%;
 }
 
 .text-block-centered h2{
@@ -905,14 +1015,43 @@ input{
 	padding: 0 5%;
 }
 
+.text-block-centered hr{
+  margin-top: 10px !important;
+	height: 3px !important;
+	width: 50px !important;
+	background: #f27222 !important;
+  order-style: none !important;
+	margin-bottom: 20px !important;
+  border-top: none;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media screen and  (min-width: 400px) {
+
+  .header-description-home {
+    margin-top: 90%;
+    margin-bottom: 5%;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and  (min-width: 500px) {
+
+  .header-description-home {
+    margin-top: 70%;
+    margin-bottom: -75%;
+  }
+
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
-  .header-description {
-  	margin: 35% 0 5%;
+  .header-description-home {
+    margin-top: 40%;
+    margin-bottom: -75%;
   }
 
 }
@@ -920,8 +1059,9 @@ input{
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-  .header-description {
-  	margin: 15% 0 5%;
+  .header-description-home {
+    margin-top: 30%;
+    margin-bottom: -75%;
   }
 
   .text-block-centered h2{
@@ -933,8 +1073,9 @@ input{
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
-  .header-description {
-  	margin: 0 0 5%;
+  .header-description-home {
+    margin-top: 22%;
+    margin-bottom: 5%;
   }
 
   .text-block-centered p {
@@ -1348,11 +1489,31 @@ input{
 
 
 .learning-areas {
-	margin: 5% 0 0 0;
+	margin: 2% 0 0 0;
+  background-color: #B9B9B9;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+#img-project{
+  display: block;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  border: 3px solid white;
+}
+#img-project2{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  margin-top: 5%;
 }
 
 #learning-areas-element {
-	text-align: center;
+	text-align: left;
 }
 
 #learning-areas-element p{
@@ -1362,9 +1523,29 @@ input{
 
 
 #learning-areas-element h3{
-	margin: 0 0 3% 0;
+	margin: 5% 0 3% 0;
+}
+#learning-areas-element2 {
+	text-align: left;
+  background: white;
+  /*margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 5%;*/
+  margin: auto;
+  max-width: 60%;
+  border: 3px solid #B9B9B9;
+  border-radius: 10px;
 }
 
+#learning-areas-element2 p{
+	font-size: 1em;
+  line-height: 25px;
+}
+
+
+#learning-areas-element2 h3{
+	margin: 5% 0 3% 0;
+}
 
 .learning-areas-buttons {
 	margin: 3% 0 0 0;
@@ -1372,6 +1553,19 @@ input{
 
 #learning-areas-buttons-element {
   text-align: center;
+}
+#learning-areas-projects-buttons-element{
+  text-align: left;
+  margin-bottom: 15%;
+}
+
+.button-projects{
+  text-align: center;
+}
+
+#projects{
+  width: 168px;
+  height: 168px;
 }
 
 .b-outlined-gray {
@@ -1393,11 +1587,20 @@ input{
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media screen and  (min-width: 500px) {
+  .learning-areas {
+    margin-top: 80%;
+  }
+
+  .b, .b-outlined-gray {
+    margin: 5% 0 5% 0;
+  }
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
   .learning-areas {
-  	margin: 10% 0 0 0;
+    margin-top: 80%;
   }
 
   .b, .b-outlined-gray {
@@ -1507,7 +1710,8 @@ input{
    }
 
  .learning-areas {
-   margin: 9% 0 0 0;
+   margin-top: 3%;
+   margin-bottom: 5%;
  }
 
 }
@@ -1516,6 +1720,10 @@ input{
 
 /* ----------------------- 1_6_home_companies -------------------------------- 1_6_home_companies ---------------------------- */
 
+#fh5co-companies{
+  padding: 5% 0 0;
+  margin-top: -4%;
+}
 
 #companies{
 	display: inline-block;
@@ -1525,19 +1733,48 @@ input{
   outline-offset: -1px;
 }
 
+#overlay{
+  top: 20px;
+  padding: 60px 50px;
+  height: 85%;
+}
+
+.companies {
+  margin: auto;
+  width: 100%;
+  padding: 1%;
+  margin-left: 10%;
+}
+
+.text{
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
 #cont-comp {
    display: inline-block;
    width: 100px;
    height: 115px;
-   margin-right: 1px;
+   margin-right: 5%;
    margin-bottom: 1px;
    background-color: white;
    position: relative;
    border: 1px solid #e3e3e3;
 }
 
+.cont-comp{
+  display: inline-block;
+   width: 100px;
+   height: 115px;
+   margin-right: 5%;
+   margin-bottom: 1px;
+   background-color: white;
+   position: relative;
+   /*border: 1px solid #e3e3e3;*/
+}
+
 #comp {
-   width: 33px;
+   width: 45px;
    height: 33px;
    background-color: none;
    position: absolute;
@@ -1555,6 +1792,44 @@ input{
    left: 50%;
    margin-top: -17px;
    margin-left: -20px;
+}
+
+#img-responsive{
+  display: block;
+  max-width: 59%;
+  height: auto;
+}
+.container-text {
+  position: relative;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container-text:hover #img-responsive {
+  opacity: 0.3;
+}
+.container-text:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: white;
+  color: white;
+  font-size: 16px;
+  padding:  3px 3px 3px 5px;
 }
 
 #comp img:hover, #comp-nasa img:hover{
@@ -1937,8 +2212,7 @@ input{
 	overflow:hidden;
 	height:500px;
 	width:100%;
-	top: -150px;
-
+  margin-top: -2.5%;
 }
 
 .map {
@@ -1978,12 +2252,14 @@ input{
   box-shadow: 0px 30px 50px rgba(0,0,0,0.30);
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+  margin-top: -1%;
 }
 
 .box-content{
 	margin: 50px;
 	text-align: center;
+  margin-top: -7%;
 }
 .box-content h2{
   font-size: 1.7em;
@@ -1998,6 +2274,7 @@ input{
 .box-content .b-outlined{
 	margin: 5% 0 3% 0;
 }
+
 
 
 /* Extra small devices (phones, less than 768px) */
@@ -2053,7 +2330,7 @@ input{
     position: absolute;
   	z-index: 1;
   	width: 665px;
-  	height: auto;
+  	height: 250px;
   	background-color: #fff;
     box-shadow: 0px 30px 50px rgba(0,0,0,0.30);
     left: 50%;
@@ -2080,14 +2357,24 @@ input{
 }
 
 .footer-box-orange{
-	width: 100%;
-	height: 70px;
-	background-color: #f27222;
+  width: 100%;
+	height: 230px;
+  background-color: #f27222;
+  margin-bottom: 2%;
 }
-
+#one {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    border-style: none;
+    border-width: 1px;
+    border-color: red;
+    background-color: #f27222;
+    /*background-image: url('../img/06/pic-bg.jpg')*/
+}
 .footer-box-gray{
 	width: 100%;
-	height: 850px;
+	height: 1%;
 	background-color: #272726;
 	padding: 4% 10%;
 }
@@ -2099,7 +2386,6 @@ margin: 15% 0 0 0;
 
 #footer-box-gray-left a{
 	font-size: 1.3em;
-
 }
 
 #footer-box-gray-left h3{
@@ -2132,7 +2418,7 @@ margin: 15% 0 0 0;
 
 #footer-box-gray-right {
 
-	padding: 3% 0 0 25%;
+	padding: 1% 0 0 50%;
 }
 
 #footer-logo-right {
@@ -2178,10 +2464,31 @@ margin: 15% 0 0 0;
 	display: inline-block;
 	padding-left: 75px;
 }
+.cont1{
+  /*display: inline-block;
+  padding-left: 75px;*/
+  color: white;
+  text-align: center;
+}
+
+
 .ftr-cont2{
 	display: inline-block;
-	padding-left: 40px;
+  padding-left: 35px;
 }
+.cont2{
+  display: inline-block;
+  padding-bottom: 3%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.cont2 a{
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}*/
 
 .ftr-left h3{
 	color: white;
@@ -2255,6 +2562,13 @@ margin: 15% 0 0 0;
 	vertical-align: middle;
 	padding:8px 10px;
     }
+.icon{
+  width: 21px;
+  opacity: 0.7;
+  align-content: center;
+  vertical-align: middle;
+  margin: 3px;
+  }
 .footer_icon:hover{
 	opacity: 1;
 	transition: 0.3s;
@@ -2379,12 +2693,14 @@ input:invalid {
 
   .footer-box-gray {
     padding: 4% 5%;
-    height: 250px;
+    height: 320px;
+    margin-top: -5%;
   }
 
     #footer-box-gray-left {
       text-align: left;
-      margin: 0;
+      margin: 0%;
+      margin-top: 5%;
     }
 
     #footer-box-gray-left h3 {
@@ -2409,6 +2725,7 @@ input:invalid {
 
     #footer-box-gray-middle {
       margin: 0;
+      margin-top: 3%;
     }
 
 
@@ -2422,6 +2739,7 @@ input:invalid {
     text-align: left;
     padding: 3% 0 0 7%;
     margin: 0;
+    margin-top: 4%;
     }
 
     #footer-box-gray-right h5 {
@@ -2494,7 +2812,7 @@ input:invalid {
 
   .footer-box-gray {
       padding: 3% 9%;
-      height: 270px;
+      height: 350px;
   }
 
   #footer-box-gray-left hr {
@@ -2512,6 +2830,9 @@ input:invalid {
 
 /* --------------------------- 3_education -------------------- 3_education ---------------------- */
 
+.st_headline{
+  margin-top: 1%;
+}
 
 .education-upcoming-workshops {
 	background-color: #D2D0CE;
@@ -2527,27 +2848,92 @@ input:invalid {
 
 .education-feedback {
 	background-color: #D2D0CE;
+  height: 50%;
 }
 
+.text-block-centered-education{
+  text-align: center;
+  margin-top: -60%;
+}
+
+.education-learning-areas{
+  text-align: center;
+  margin-top: -62%;
+}
+
+.text-block-centered-education-areas{
+  text-align: center;
+  margin-top: -5%;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
+  .st_headline{
+    margin-top: 5%;
+  }
 
+  .text-block-centered-education{
+    text-align: center;
+    margin-top: -120%;
+  }
+
+  .education-learning-areas{
+    text-align: center;
+    margin-top: -80%;
+  }
+
+  .text-block-centered-education-areas{
+    text-align: center;
+    margin-top: -2%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
+  .st_headline{
+    margin-top: 4%;
+  }
 
+  .text-block-centered-education{
+    text-align: center;
+    margin-top: -105%;
+  }
+
+  .education-learning-areas{
+    text-align: center;
+    margin-top: -85%;
+  }
+
+  .text-block-centered-education-areas{
+    text-align: center;
+    margin-top: -2%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
+  .st_headline{
+    margin-top: 1%;
+  }
 
+  .text-block-centered-education{
+    text-align: center;
+    margin-top: -65%;
+  }
+
+  .education-learning-areas{
+    text-align: center;
+    margin-top: -60%;
+  }
+
+  .text-block-centered-education-areas{
+    text-align: center;
+    margin-top: 25%;
+  }
 }
-
 
 
 /* --------------------------- 4_events ------------------------------ 4_events ------------------------ */
@@ -2556,22 +2942,58 @@ input:invalid {
 	background-color: #D2D0CE;
 }
 
+.text-block-centered-events{
+  text-align: center;
+  margin-top: -65%;
+}
+
+.events-latest-projects{
+  text-align: center;
+  margin-top: -70%;
+  height: 300px;
+}
+
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
+  .text-block-centered-events{
+    text-align: center;
+    margin-top: -120%;
+  }
 
+  .events-latest-projects{
+    text-align: center;
+    margin-top: -100%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
+  .text-block-centered-events{
+    text-align: center;
+    margin-top: -100%;
+  }
 
+  .events-latest-projects{
+    text-align: center;
+    margin-top: -90%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
+  .text-block-centered-events{
+    text-align: center;
+    margin-top: -62%;
+  }
 
+  .events-latest-projects{
+    text-align: center;
+    margin-top: -55%;
+  }
 }
 
 
@@ -2583,46 +3005,138 @@ input:invalid {
   padding: 5% 0;
   margin: 5% 0;
 }
+.text-block-centered-work-method{
+    text-align: center;
+    margin-top: -3%;
+}
+.text-block-centered-medialab{
+  text-align: center;
+  margin-top: -65%;
+}
+
+.medialab-photo-buttons{
+  text-align: center;
+  margin-top: -65%;
+}
+
+.medialab-more-info{
+  text-align: center;
+  margin-top: -10%;
+}
+
+.text-block-centered-lastest-projects{
+  text-align: center;
+  margin-top: 100%;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-
+  .text-block-centered-medialab{
+    text-align: center;
+    margin-top: -120%;
+  }
+  .medialab-photo-buttons{
+    text-align: center;
+    margin-top: -110%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
+  .text-block-centered-medialab{
+    text-align: center;
+    margin-top: -105%;
+  }
+  .medialab-photo-buttons{
+    text-align: center;
+    margin-top: -100%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .text-block-centered-medialab{
+    text-align: center;
+    margin-top: -63%;
+  }
+  .medialab-photo-buttons{
+    text-align: center;
+    margin-top: -60%;
+  }
 }
 
 
 
 /* --------------------------- 6_fablab ------------------------------ 6_fablab ------------------------ */
 
+.space-details-fablab{
+  background-color: #D2D0CE;
+  padding: 5% 0;
+  margin: 5% 0;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.text-block-centered-fablab-details{
+  text-align: center;
+  margin-top: -5%;
+}
+
+.text-block-centered-fablab{
+  text-align: center;
+  margin-top: -5%;
+}
+
+.fablab-photo-buttons{
+  text-align: center;
+  margin-top: -50%;
+}
+
+.text-block-centered-fablab-details{
+
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
+  .text-block-centered-fablab{
+    text-align: center;
+    margin-top: -120%;
+  }
 
+  .fablab-photo-buttons{
+    text-align: center;
+    margin-top: -90%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
+  .text-block-centered-fablab{
+    text-align: center;
+    margin-top: -105%;
+  }
+  .fablab-photo-buttons{
+    text-align: center;
+    margin-top: -90%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .text-block-centered-fablab{
+    text-align: center;
+    margin-top: -63%;
+  }
+  .fablab-photo-buttons{
+    text-align: center;
+    margin-top: -45%;
+  }
 }
 
 
@@ -2635,6 +3149,18 @@ input:invalid {
   padding: 5% 0;
   margin: 5% 0;
 }
+
+.text-block-centered-space{
+  text-align: center;
+  margin-top: -65%;
+}
+
+.space-details{
+  text-align: center;
+  margin-top: 5%;
+}
+
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
