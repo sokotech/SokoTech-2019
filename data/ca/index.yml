@@ -2,12 +2,12 @@ enable: true
 
 item:
 
-# BG sections
+  # BG sections
 
   BgTitle: SokoTech
-  BgDescription: Ensenya, organitza esdeveniments, fabrica, dissenya i desenvolupa
+  BgDescription: Define tagline - Define tagline - Define tagline
 
-# OverlayNav
+  # OverlayNav
 
   OverlayNavItemOne: Inici
   OverlayNavItemTwo: Educació
@@ -20,7 +20,7 @@ item:
   OverlayNavItemNine: Historia
   OverlayNavItemTen: Qualsevol pregunta?
 
-# StickyNav
+  # StickyNav
 
   StNavItemOne: Esdeveniments
   StNavItemTwo: Aprendre
@@ -29,7 +29,7 @@ item:
   StNavItemFive: Contacte
   StNavItemSix: Idiomes
 
-# IconsNav
+  # IconsNav
 
   IcoNavItemOne: Educació
   IcoNavItemTwo: Esdeveniments
@@ -38,44 +38,11 @@ item:
   IcoNavItemFive: Espai
   IcoNavItemSix: Contacte
 
-# HomeDescription
+  # HomeDescription
 
-  HomeDescriptionTitle: Vuela amb SokoTech
+  HomeDescriptionTitle:
   HomeDescriptionText: SokoTech és una fàbrica d'idees en què tot el món pot col·laborar, aprendre, dissenyar. Gràcies a les nostres instal·lacions, la FabLab i MediaLab tenim la possibilitat de materialitzar les idees. A més, s'organitzen esdeveniments per a la divulgació de la tecnologia, matemàtiques i ciència.
-  HomeDescriptionButton: Llegir més...
 
-# HomePhotoButtons
+  # HomeCompanies
 
-  HomePhotoButtonsTitleOne: Cursos
-  HomePhotoButtonsOverlayTitleOne: Cursos
-  HomePhotoButtonsOverlayTextOne: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  HomePhotoButtonsTitleTwo: Instal·lacions
-  HomePhotoButtonsOverlayTitleTwo: Instal·lacions
-  HomePhotoButtonsOverlayTextTwo: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  HomePhotoButtonsTitleThree: Esdeveniments
-  HomePhotoButtonsOverlayTitleThree: Esdeveniments
-  HomePhotoButtonsOverlayTextThree: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  HomePhotoButtonsTitleFour: FabLab
-  HomePhotoButtonsOverlayTitleFour: FabLab
-  HomePhotoButtonsOverlayTextFour: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-# HomeEvents
-
-  HomeEventsTitle: El teu esdeveniment
-  HomeEventsText: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  HomeEventsButton: Llegir més...
-
-  HomeEventsSliderOne: Smashing Conference
-  HomeEventsSliderDescriptionOne: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  HomeEventsSliderTwo: SteamConf
-  HomeEventsSliderThree: Decidim
-  HomeEventsSliderFour: Fab 10
-  HomeEventsSliderFive: In3dustry
-  HomeEventsSliderSix: Event Name
-  HomeEventsSliderSeven: Event Name
-  HomeEventsSliderEight: Event Name
-  HomeEventsSliderNine: Event Name
+  HomeCompaniesTitle : Empreses que ens han confiat

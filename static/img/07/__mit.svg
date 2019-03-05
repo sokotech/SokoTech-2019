@@ -1,1 +1,17 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:#b61927;}.cls-2{fill:#919191;}</style></defs><title>_</title><path class="cls-1" d="M22.51466,11.99218V36.00782H18.01173V11.99218Z"/><path class="cls-1" d="M4.50293,36.00782H0V11.99218H4.50293Z"/><path class="cls-1" d="M13.47229,11.99218V28.50293H9.00586V11.99218Z"/><path class="cls-1" d="M36.02345,36.00782V19.53623h4.50293V36.00782Z"/><path class="cls-2" d="M27.01759,36.00782V19.53623h4.50293V36.00782Z"/><path class="cls-1" d="M36.02345,16.49511V11.99218H48v4.50293Z"/><path class="cls-1" d="M31.52052,11.99218v4.50293H27.01759V11.99218Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90 60" style="enable-background:new 0 0 90 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B61927;}
+	.st1{fill:#919191;}
+</style>
+<title>_</title>
+<path class="st0" d="M43.5,18v24H39V18H43.5z"/>
+<path class="st0" d="M25.5,42H21V18h4.5V42z"/>
+<path class="st0" d="M34.5,18v16.5H30V18H34.5z"/>
+<path class="st0" d="M57,42V25.5h4.5V42H57z"/>
+<path class="st1" d="M48,42V25.5h4.5V42H48z"/>
+<path class="st0" d="M57,22.5V18h12v4.5H57z"/>
+<path class="st0" d="M52.5,18v4.5H48V18H52.5z"/>
+</svg>

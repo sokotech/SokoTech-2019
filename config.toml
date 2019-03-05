@@ -1,15 +1,24 @@
 baseURL = "localhost:1313"
 languageCode = "en-US"
 title = "SokoTech"
+<<<<<<< HEAD
+author = "SokoTech"
+tagline = "SokoTech is a factory of ideas in which everyone can collaborate, learn, design. Thanks to our facilities, the FabLab and MediaLab we have the possibility to materialize the ideas. In addition, to organize events for the dissemination of technology, mathematics and science."
+tags = "educacion, steam, education, steam"
+copyright = "© SokoTech"
+license = "GNU General Public License v3.0"
+DefaultContentLanguage = "en"
+=======
 #defaultContentLanguageInSubdir = true
 copyright = "SokoTech"
 
 DefaultContentLanguage = "en"
 
 # Build robots.txt file
+>>>>>>> 65e4398fc0931789af195a670c154f9ce6a80e7e
 enableRobotsTXT = true
-# google analytics tracking id
 googleAnalytics = ""
+canonifyURLs = true
 
 
 

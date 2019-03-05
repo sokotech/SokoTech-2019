@@ -1,19 +1,13 @@
 enable  : true
 
-#  - positionRight : false
-#    image : images/about/about-1.jpg
-#    title : FRANCAIS Creativity is in our blood
-#    description : >
-#      FRANCAIS Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti odit, non deserunt.
-
 item:
 
-# BG sections
+  # BG sections
 
   BgTitle: SokoTech
-  BgDescription: Teach, organize events, manufacture, design and develop
+  BgDescription: Define tagline - Define tagline - Define tagline
 
-# OverlayNav
+  # OverlayNav
 
   OverlayNavItemOne: Home
   OverlayNavItemTwo: Education
@@ -27,7 +21,7 @@ item:
   OverlayNavItemTen: Any Questions?
   OverlayNavItemTen: Any Questions?
 
-# StickyNav
+  # StickyNav
 
   StNavItemOne: Events
   StNavItemTwo: Learn
@@ -36,7 +30,7 @@ item:
   StNavItemFive: Contact
   StNavItemSix: Language
 
-# IconsNav
+  # IconsNav
 
   IcoNavItemOne: Education
   IcoNavItemTwo: Events
@@ -45,32 +39,11 @@ item:
   IcoNavItemFive: Space
   IcoNavItemSix: Contact
 
-# HomeDescription
+  # HomeDescription
 
-  HomeDescriptionTitle: Fly with SokoTech
+  HomeDescriptionTitle:
   HomeDescriptionText: SokoTech is a factory of ideas in which everyone can collaborate, learn, design. Thanks to our facilities, the FabLab and MediaLab we have the possibility to materialize the ideas. In addition, to organize events for the dissemination of technology, mathematics and science.
-  HomeDescriptionButton: Read more...
 
-# HomePhotoButtons
+  # HomeCompanies
 
-  HomePhotoButtonsTitleOne: Courses
-  HomePhotoButtonsOverlayTitleOne: Courses
-  HomePhotoButtonsOverlayTextOne: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  HomePhotoButtonsTitleTwo: Facilities
-  HomePhotoButtonsOverlayTitleTwo: Facilities
-  HomePhotoButtonsOverlayTextTwo: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  HomePhotoButtonsTitleThree: Events
-  HomePhotoButtonsOverlayTitleThree: Eventos
-  HomePhotoButtonsOverlayTextThree: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  HomePhotoButtonsTitleFour: FabLab
-  HomePhotoButtonsOverlayTitleFour: FabLab
-  HomePhotoButtonsOverlayTextFour: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  # HomeEvents
-
-  HomeEventsTitle: Your Event
-  HomeEventsText: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  HomeEventsButton: Read more...
+  HomeCompaniesTitle : Companies that trust us
