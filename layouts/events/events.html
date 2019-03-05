@@ -1,0 +1,25 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.events }}
+
+    {{ partial "0_1_page_head.html" . }}
+
+  <body>
+
+	{{ partial "4_0_events_header.html" . }}
+
+	{{ partial "4_1_events_description.html" . }}
+
+	{{ partial "4_2_events_latest_projects.html" . }}
+
+  <!--- footer ------->
+
+  {{ partial "0_1_page_footer.html" . }}
+
+	{{ partial "0_1_page_js.html" . }}
+
+
+  </body>
+</html>
+
+{{ end }}

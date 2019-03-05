@@ -1,0 +1,27 @@
+enable  : true
+
+item :
+
+  EducationMainTitle : Educación
+
+  EducationMainTitleDescription: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+
+  EducationDescriptionTitle : Mucho más que aprender
+
+  EducationDescriptionText : El propósito de Soko Tech es extender el uso y la comprensión de la tecnología, la ciencia, la ingeniería, el arte y las matemáticas entre el conjunto de la sociedad, sin tener en cuenta edad, nivel de conocimientos, estatus , capacidades o género. SokoTech quiere facilitar, con iniciativas adhoc, el acceso a los conocimientos y capacidades necesarias para adaptarse a un mundo en cambio constante mediante el uso de las tecnologías más avanzadas. Quiere promover un aprendizaje a medida a lo largo de la vida (lifelong learning) de forma que permita a chicos, chicas, jóvenes y adultos, principiantes o expertos, abordar los tipos de retos y situaciones que encontrarán en el entorno real y en las ocupaciones del siglo 21.
+
+  EducationAreasTitle : Areas de educación
+
+  EducationAreasOneTitle : Diseño
+  EducationAreasOneText : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  EducationAreasTwoTitle : Diseño
+  EducationAreasTwoText : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  EducationAreasThreeTitle : Diseño
+  EducationAreasThreeText : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  EducationAreasFourTitle : Diseño
+  EducationAreasFourText : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  EducationAreasButton : Contactanos

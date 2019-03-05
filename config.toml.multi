@@ -1,0 +1,23 @@
+baseURL = "localhost:1313/en"
+title = "SokoTech"
+[languages]
+  [languages.en]
+    baseURL = "localhost:1313/en"
+    languageName = "English"
+    title = "In English"
+    contentDir = "content/english"
+    weight = 3
+  [languages.es]
+    baseURL = "localhost:1313/es"
+    languageName = "Español"
+    title = "En Español"
+    contentDir = "content/espanol"
+    weight = 2
+    [languages.ca]
+      baseURL = "localhost:1313/ca"
+      languageName = "Catala"
+      title = "En Catala"
+      contentDir = "content/catala"
+      weight = 1
+
+disableLanguages = ["es", "ca"]

@@ -1,0 +1,48 @@
+enable   : true
+
+item :
+
+  # BG sections
+
+  BgTitle : SokoTech
+  BgDescription : Define tagline - Define tagline - Define tagline
+
+  # OverlayNav
+
+  OverlayNavItemOne : Eventos
+  OverlayNavItemTwo : Aprende
+  OverlayNavItemThree : Crea
+  OverlayNavItemFour : Nosotros
+  OverlayNavItemFive : Contacto
+  OverlayNavItemSix : Idioma
+  OverlayNavItemSeven : Contacto
+  OverlayNavItemEight : Nosotros
+  OverlayNavItemNine : Historia
+  OverlayNavItemTen : ¿Tienes preguntas?
+
+  # StickyNav
+
+  StNavItemOne : Eventos
+  StNavItemTwo : Aprende
+  StNavItemThree : Crea
+  StNavItemFour : Nosotros
+  StNavItemFive : Contacto
+  StNavItemSix : Idioma
+
+  # IconsNav
+
+  IcoNavItemOne : Educacion
+  IcoNavItemTwo : Eventos
+  IcoNavItemThree : MediaLab
+  IcoNavItemFour : FabLab
+  IcoNavItemFive : Espacio
+  IcoNavItemSix : Contacto
+
+  # HomeDescription
+
+  HomeDescriptionTitle :
+  HomeDescriptionText : SokoTech es una fábrica de ideas en la cual todo el mundo puede colaborar, aprender, diseñar. Gracias a nuestras instalaciones, la FabLab y MediaLab tenemos la posibilidad de materializar las ideas. Además, de organizar eventos para la divulgación de la tecnología, matemáticas y ciencia.
+
+  # HomeCompanies
+
+  HomeCompaniesTitle : Empresas que confian en nosotros

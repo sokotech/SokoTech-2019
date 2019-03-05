@@ -1,0 +1,132 @@
+baseURL = "localhost:1313"
+languageCode = "en-US"
+title = "SokoTech"
+author = "SokoTech"
+tagline = "SokoTech is a factory of ideas in which everyone can collaborate, learn, design. Thanks to our facilities, the FabLab and MediaLab we have the possibility to materialize the ideas. In addition, to organize events for the dissemination of technology, mathematics and science."
+tags = "educacion, steam, education, steam"
+copyright = "© SokoTech"
+license = "GNU General Public License v3.0"
+DefaultContentLanguage = "en"
+enableRobotsTXT = true
+googleAnalytics = ""
+canonifyURLs = true
+
+
+[Languages]
+
+    [Languages.es]
+    weight = 1
+    languageCode = "es-es"
+    languageName = "ES"
+    title = "SokoTech"
+
+    [Languages.ca]
+    weight = 2
+    languageCode = "ca-ca"
+    languageName = "CA"
+    title = "SokoTech"
+
+    [Languages.en]
+    weight = 3
+    languageCode = "en-en"
+    languageName = "EN"
+    title = "SokoTech"
+
+# --- Navigation Section -------------------------------------
+
+    navElementOne = "Eventos"
+    navElementTwo = "Aprende"
+    navElementThree = "Construye"
+    navElementFour = "Nosotros"
+    navElementFive = "Contactanos"
+    navElementLang = "Idioma"
+    navElementLangOne = "Idioma"
+    navElementLangTwo = "Idioma"
+    navElementLangThree = "Idioma"
+
+
+# --- Home Header Section -------------------------------------
+
+    [Languages.es.params.hero]
+      enable  = true
+      heading = "We love to make brands grow"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+      BtnEducation = "Educación"
+      BtnEvents = "Eventos"
+      BtnMedialab = "MediaLab"
+      BtnFablab = "Fablab"
+      BtnSpace = "Espacio"
+      BtnContact = "Contacto"
+
+# --- Home About Section -------------------------------------
+
+    [Languages.es.params.homeabout]
+      enable  = true
+      title   = " Vuela con con con SokoTech"
+      description = "SokoTech es una fábrica de ideas en la cual todo el mundo puede colaborar, aprender, diseñar. Gracias a nuestras instalaciones, la FabLab y MediaLab tenemos la posibilidad de materializar las ideas. Además, de organizar eventos para la divulgación de la tecnología, matemáticas y ciencia."
+
+# --- Home About Section -------------------------------------
+
+    [Languages.es.params.homephotobtns]
+      enable  = true
+      BtnOne = "Cursos"
+      BtnOneTitle = "Cursos"
+      BtnOneText = "Necesitas un sitio donde realizar un workshop? nosotros Ofrecemos nuestro FabLab para tus eventos y projectos."
+
+      BtnTwo = "Instalaciones"
+      BtnTwoTitle = "Instalaciones"
+      BtnTwoText = "Necesitas un sitio donde realizar un workshop? nosotros Ofrecemos nuestro FabLab para tus eventos y projectos."
+
+      BtnThree = "Eventos"
+      BtnThreeTitle = "Eventos"
+      BtnThreeText = "Necesitas un sitio donde realizar un workshop? nosotros Ofrecemos nuestro FabLab para tus eventos y projectos."
+
+      BtnFour = "Fablab"
+      BtnFourTitle = "Fablab"
+      BtnFourText = "Necesitas un sitio donde realizar un workshop? nosotros Ofrecemos nuestro FabLab para tus eventos y projectos."
+
+# --- Home Events Section -------------------------------------
+
+    [Languages.es.params.contact]
+      enable  = true
+      title= "Tu Event"
+      text= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      BtnHomeEvents = "Leer Más"
+
+# --- Home Slider Section -------------------------------------
+
+# --- Home Education Section -------------------------------------
+
+    [Languages.es.params.Education]
+      enable  = true
+      title= "Que aprender con nosotros"
+
+      EduBubbleOneLogo = ""
+      EduBubbleOneTitle = "Impresión 3D"
+      EduBubbleOneText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      EduBubbleTwoLogo = ""
+      EduBubbleTwoTitle = "Modelado 3D"
+      EduBubbleTwoText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      EduBubbleThreeLogo = ""
+      EduBubbleThreeTitle = "Arduino 3D"
+      EduBubbleThreeText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      EduBubbleFourLogo = ""
+      EduBubbleFourTitle = "Game Dev"
+      EduBubbleFourText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      BtnHomeEducation = "Leer Más"
+
+
+# --- FOOTER Section -------------------------------------
+
+      footerContact = "Contactanos"
+      footerPhone = "+34 93 763 85 78"
+      footerMail = "hello@soko.tech"
+      footerWhatsapp = "+34 699 571 897"
+      footerLocation = "Ubicación"
+      footerAbout = "¿Quien Somos?"
+      footerHistory = "Historia"
+      footerAddress = "Carrer Valles i Ribot 44 08027, Barcelona"
