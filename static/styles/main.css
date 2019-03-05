@@ -990,11 +990,15 @@ input{
 	margin: 60% 0 20%;
 }
 
-
+#row-logos-text{
+  weight: auto;
+  margin-bottom: 15%;
+  margin-top: 1%;
+}
 .row-logos{
   weight: auto;
   margin-bottom: 15%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 .header-description-page {
@@ -1505,8 +1509,8 @@ input{
 }
 #img-project2{
   display: block;
-  max-width: 100%;
-  max-height: 100%;
+  width: 250px;
+  height: 150px;
   margin-bottom: 10%;
   border-radius: 5px;
   margin-top: 5%;
@@ -1533,6 +1537,7 @@ input{
   margin-bottom: 5%;*/
   margin: auto;
   max-width: 60%;
+  height: 330px;
   border: 3px solid #B9B9B9;
   border-radius: 10px;
 }
@@ -2848,7 +2853,7 @@ input:invalid {
 
 .education-feedback {
 	background-color: #D2D0CE;
-  height: 50%;
+  height: 100%;
 }
 
 .text-block-centered-education{
@@ -2864,6 +2869,15 @@ input:invalid {
 .text-block-centered-education-areas{
   text-align: center;
   margin-top: -5%;
+}
+
+.twitter-timeline{
+
+}
+
+.twitter-feedback{
+  margin-top: 1%;
+  margin-left: 25%;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -3157,7 +3171,7 @@ input:invalid {
 
 .space-details{
   text-align: center;
-  margin-top: 5%;
+  margin-top: -50%;
 }
 
 
