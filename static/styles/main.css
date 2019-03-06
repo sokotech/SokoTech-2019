@@ -65,7 +65,7 @@ hr{
 
   order-style: none !important;
 	margin-bottom: 20px !important;
-
+  border-top: none;
 }
 
 button{
@@ -147,6 +147,7 @@ button{
   hr{
   	margin-top: 10px;
   	margin-bottom: 20px;
+    border-top: none;
   }
 
   button{
@@ -519,7 +520,6 @@ input{
   justify-content: center;
 }
 
-
 .contact a{
 	text-decoration: underline !important;
 }
@@ -534,10 +534,28 @@ input{
   margin: 3% 0%;
 }
 
-
-
-#contact-1, #soko-mail, #contact-2, #contact-3 {
+#contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
   font-size: 1.1em;
+}
+
+.address{
+	font-size: 0.3em;
+  display: flex;
+  flex-direction: column;
+  margin: 3% 0 0 0;
+  padding: 0
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-4 {
+  line-height: 20px;
+  text-align: center;
+}
+
+.address h6{
+  font-weight: 400;
+  margin: 3% 0%;
 }
 
 .overlay ul {
@@ -684,7 +702,7 @@ input{
     width: 65%;
   }
 
-  #contact-1, #soko-mail, #contact-2, #contact-3 {
+  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
     font-size: 1.1em;
   }
 
@@ -784,7 +802,7 @@ input{
     width: 65%;
   }
 
-  #contact-1, #soko-mail, #contact-2, #contact-3 {
+  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
     font-size: 1.1em;
   }
 
@@ -856,7 +874,7 @@ input{
     width: 40%;
   }
 
-  #contact-1, #soko-mail, #contact-2, #contact-3 {
+  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
     font-size: 1.3em;
   }
 
@@ -942,7 +960,7 @@ input{
   	font-size: 2.3em;
   }
 
-  #contact-1, #soko-mail, #contact-2, #contact-3 {
+  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
     font-size: 1.5em;
   }
 
@@ -1703,6 +1721,10 @@ input{
 
 /* ----------------------- 1_6_home_companies -------------------------------- 1_6_home_companies ---------------------------- */
 
+.text-block-centered hr{
+  border-top: none;
+}
+
 .companies-row {
   margin-top: 5% !important;
 }
@@ -1792,16 +1814,17 @@ input{
   opacity: 0;
   position: absolute;
   top: 35%;
-  left: 49%;
+  left: 48%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.container-text:hover #img-responsive {
+/*.home-companies-logo:hover .logo-item {
   opacity: 0.3;
 }
-.container-text:hover .middle {
+.home-companies-logo:hover .middle {
   opacity: 1;
-}
+}*/
+
 .text {
   background-color: white;
   color: white;
@@ -1868,102 +1891,21 @@ input{
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-  #companies{
-  width: 100%;
-  }
-  #cont-comp {
-  display: inline-block;
-   width: 16.5%;
-   height: 100px;
-  }
-  #companies{
-    outline: 12px solid white;
-    outline-offset: -12px;
-  }
-  .line-variable {
-  margin-left: auto;
-  }
-
-  #companies-text-block {
-    margin: 13% 0;
-  }
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
 
-  #companies{
-  width: 424px;
-  }
-
-  #companies-container {
-      margin-bottom: 0%;
-  }
-
-  #cont-comp {
-   width: 105px;
-   height: 105px;
-  }
-
-  #comp {
-   width: 30px;
-   height: 30px;
-   margin-top: -15px;
-   margin-left: -15px;
-  }
-  #comp-nasa {
-   width: 38px;
-   height: 30px;
-   margin-top: -15px;
-   margin-left: -19px;
-  }
-
-  #text-comp p{
-
-  font-size: 10px;
-
-  }
   .space120{
   display: inline-block;
   height: 90px;
   }
 
-
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
-  #companies-container {
-      margin-bottom: 0;
-      padding: 7%;
-  }
-
-  #companies{
-    display: inline-block;
-  	width: 100%;
-  	font-size: 0;
-    outline: 1px solid white;
-    outline-offset: -1px;
-
-  }
-
-  #cont-comp {
-     display: inline-block;
-     width: 100px;
-     height: 100px;
-     margin-right: 1px;
-     margin-bottom: 1px;
-     background-color: white;
-     position: relative;
-  }
-
-  #companies-text-block {
-    margin: 3% 0;
-    text-align: left;
-  }
 
 }
 
@@ -2436,16 +2378,7 @@ margin: 15% 0 0 0;
 	font-size: 1.2em;
 }
 
-.ftr-cont1{
-	display: inline-block;
-	padding-left: 75px;
-}
-.cont1{
-  /*display: inline-block;
-  padding-left: 75px;*/
-  color: white;
-  text-align: center;
-}
+
 
 
 .ftr-cont2{
@@ -2646,10 +2579,6 @@ input:invalid {
 	    text-decoration: underline;
 	}
 
-	.ftr-cont1{
-		display: none;
-		padding-left: 0px;
-	}
 	.ftr-cont2{
 		display: inline-block;
 		position: relative;
@@ -2769,10 +2698,7 @@ input:invalid {
     .container-sbt {
         width: 172px;
   }
-  .ftr-cont1{
-    display: inline-block;
-    padding-left: 0px;
-  }
+
   .ftr-cont2{
     display: inline-block;
     padding-left: 8px;
@@ -2801,8 +2727,6 @@ input:invalid {
   }
 
 }
-
-
 
 /* --------------------------- 3_education -------------------- 3_education ---------------------- */
 
