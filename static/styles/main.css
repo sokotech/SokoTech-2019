@@ -270,7 +270,6 @@ button{
 
 }
 
-
 .st_headline {
   position: absolute;
   top:50%;
@@ -281,8 +280,6 @@ button{
 .st_headline h1{
    font-size: 2.5em !important;
 }
-
-
 
 .subhead{
 	top: -20px;
@@ -313,12 +310,10 @@ button{
 	font-size: 15px !important;
 }
 
-
 .arrow:hover{
 	transform: translateY(20px);
 	transition: 0.5s;
 }
-
 
 .arrow:hover .tscr{
 	color: white;
@@ -326,7 +321,6 @@ button{
     transform: translateY(-10px);
     transition: 0.5s;
 }
-
 
 .bg_img {
 	background-color: #f27222;
@@ -380,7 +374,6 @@ button{
 
 }
 
-
 #bg-icons-background-page{
 	position: absolute;
   bottom: -1px;
@@ -390,7 +383,6 @@ button{
 	position: absolute;
   bottom: -1px;
 }
-
 
 #bg-icons-grid{
   display: block;
@@ -407,7 +399,6 @@ button{
   background-color: white;
 }
 
-
 #bg_icons_2_element{
 	text-align: center;
   margin-bottom: 3%;
@@ -416,7 +407,6 @@ button{
 #bg_icons_2_element img{
 	width: 50%;
 }
-
 
 #bg_icons_2_element h3{
 	font-size: 0.9em !important;
@@ -427,8 +417,6 @@ button{
   position: absolute;
   top: 130%;
 }
-
-
 
 label {
 	display: inline !important;
@@ -806,8 +794,6 @@ input{
     font-size: 1.1em;
   }
 
-
-
   #bg-icons-grid {
     top: 96%;
     padding: 0 10%;
@@ -817,7 +803,6 @@ input{
   #bg_icons_2_element img{
   	width: 25%;
   }
-
 
   #bg_icons_2_element h3{
   	font-size: 1.2em !important;
@@ -833,7 +818,6 @@ input{
      display: block;
      position: absolute;
     }
-
 
 }
 
@@ -881,7 +865,6 @@ input{
   #bg_icons_2_element img{
   	width: 35%;
   }
-
 
   #bg_icons_2_element h3{
   	font-size: 1.2em !important;
@@ -976,7 +959,6 @@ input{
   }
 
 
-
   #bg-icons-grid {
     top: 96%;
     padding: 0 10%;
@@ -991,7 +973,6 @@ input{
   #bg_icons_2_element img{
   	width: 35%;
   }
-
 
   #bg_icons_2_element h3{
   	font-size: 1.2em !important;
@@ -1064,9 +1045,9 @@ input{
     margin: 1% 0 5%;
   }
 
-    .home-main-description-block {
-      margin: 0 10% 10% 10%;
-    }
+  .home-main-description-block {
+    margin: 0 10% 10% 10%;
+  }
 
 }
 
@@ -1322,7 +1303,6 @@ input{
 	margin: 0;
 }
 
-
 .menu-item-container {
   transition: .2s;
   transform: translateY(1em);
@@ -1331,7 +1311,6 @@ input{
 .menu-item-container:hover .img__description {
   transform: translateY(0);
 }
-
 
 .menu-item-description {
   position: absolute;
@@ -1357,7 +1336,6 @@ input{
   visibility: visible;
   opacity: 1;
 }
-
 
 .menu-item-description p{
 	font-size: 1.1em;
@@ -1457,7 +1435,6 @@ input{
   text-shadow: none;
 }
 
-
 .carousel-control {
   padding-top:10.25%;
   width:5%;
@@ -1465,7 +1442,6 @@ input{
   text-shadow: none !important;
   padding-top: 7% !important;
 }
-
 
 .carousel-control.left {
     left: -85px;
@@ -1476,7 +1452,6 @@ input{
 .carousel-control.left i{
 	color: black;
 }
-
 
 .carousel-control.right {
     background-image: none !important;
@@ -1733,68 +1708,10 @@ input{
   padding-bottom: 5%;
 }
 
-#companies{
-	display: inline-block;
-	width: 100%;
-	font-size: 0;
-  outline: 1px solid white;
-  outline-offset: -1px;
-}
-
 #overlay{
   top: 20px;
   padding: 60px 50px;
   height: 85%;
-}
-
-.companies {
-  margin: auto;
-  width: 100%;
-  padding: 1%;
-  margin-left: 10%;
-}
-
-#cont-comp {
-   display: inline-block;
-   width: 100px;
-   height: 115px;
-   margin-right: 5%;
-   margin-bottom: 1px;
-   background-color: white;
-   position: relative;
-   border: 1px solid #e3e3e3;
-}
-
-.cont-comp{
-  display: inline-block;
-   width: 100px;
-   height: 115px;
-   margin-right: 5%;
-   margin-bottom: 1px;
-   background-color: white;
-   position: relative;
-   /*border: 1px solid #e3e3e3;*/
-}
-
-#comp {
-   width: 45px;
-   height: 33px;
-   background-color: none;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-top: -17px;
-   margin-left: -17px;
-}
-#comp-nasa {
-   width: 40px;
-   height: 33px;
-   background-color: none;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-top: -17px;
-   margin-left: -20px;
 }
 
 .container-text {
@@ -2821,18 +2738,19 @@ input:invalid {
 
   .text-block-centered-education{
     text-align: center;
-    margin-top: -70%;
+    margin-top: -65%;
   }
 
   .education-learning-areas{
     text-align: center;
-    margin-top: -60%;
+    margin-top: -55%;
   }
 
   .text-block-centered-education-areas{
     text-align: center;
     margin-top: -2%;
   }
+
 }
 
 
