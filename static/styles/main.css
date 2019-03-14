@@ -270,6 +270,21 @@ button{
 
 }
 
+.preheader{
+  background-color: #D2D0CE;
+  width: 100%;
+  height: 40px;
+}
+
+.social-media{
+  float: right;
+  /*padding: 0.5%;*/
+  padding-right: 0.5%;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
 .st_headline {
   position: absolute;
   top:50%;
@@ -371,7 +386,6 @@ button{
     z-index: 11;
     display: block;
     position: relative;
-
 }
 
 #bg-icons-background-page{
@@ -980,54 +994,6 @@ input{
 
 }
 
-/* Sticky bar
-.icon-bar {
-  position: fixed;
-  top: 20%;
-  right: 0%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
-}
-
-.icon-bar a:hover {
-  background-color: orange;
-}
-
-.facebook {
-  background: #272726;
-  color: white;
-}
-
-.twitter {
-  background: #272726;
-  color: white;
-}
-
-.instagram {
-  background: #272726;
-  color: white;
-}
-
-.linkedin {
-  background: #272726;
-  color: white;
-}
-
-.content {
-  margin-left: 75px;
-  font-size: 30px;
-}*/
-
 
 /* ------------------ 1_1_home_header_description ----------------------------------- 1_1_home_header_description ---------------- */
 
@@ -1133,10 +1099,6 @@ input{
   }
 
 }
-
-
-
-
 
 /* ------------------ 1_2_home_photo_buttons ----------------------------------- 1_2_home_photo_buttons ----------------------- */
 
@@ -1332,13 +1294,7 @@ input{
 
  }
 
-
-
-
-
 /* ------------------ 1_3_home_events_description -------------------------- 1_3_home_events_description --------------------- */
-
-
 
 .events-description {
 	margin-top: 5%;
@@ -1468,45 +1424,6 @@ input{
 }
 
 
-/*--------------------  carousel  -----------------------*/
-
-.carousel-control {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 15%;
-  opacity: .5;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
-}
-
-.carousel-control {
-  padding-top:10.25%;
-  width:5%;
-  font-size: 33px !important;
-  text-shadow: none !important;
-  padding-top: 7% !important;
-}
-
-.carousel-control.left {
-    left: -85px;
-    width: 10%;
-    background-image: none !important;
-}
-
-.carousel-control.left i{
-	color: black;
-}
-
-.carousel-control.right {
-    background-image: none !important;
-    right: -85px !important;
-    width: 10%;
-    color: #6E6E6E !important;
-}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -1540,10 +1457,6 @@ input{
 }
 
 /* img projects */
-.carrousel-projects {
-    margin-top: 5% !important;
-
-}
 .container{
   width: 80%;
 }
@@ -1552,12 +1465,6 @@ input{
   clear: both;
   float: left;
   width: 100%;
-}
-.main-title{
-  color: #2d2d2d;
-  text-align: center;
-  text-transform: capitalize;
-  padding: 0.7em 0;
 }
 
 .container-projects{
@@ -1669,28 +1576,6 @@ input{
 
 .fadeIn-right{
   left: 80%;
-}*/
-
-#learning-areas-element {
-	text-align: left;
-  background: white;
-  /*margin-left: 5%;
-  margin-right: 2%;
-  margin-bottom: 5%;*/
-  margin: auto;
-  max-width: 60%;
-  border: 3px solid #B9B9B9;
-  border-radius: 10px;
-}
-
-#learning-areas-element p{
-	font-size: 1em;
-  line-height: 25px;
-}
-
-
-#learning-areas-element h3{
-	margin: 5% 0 3% 0;
 }
 
 #img-project{
@@ -1715,32 +1600,6 @@ input{
   margin-bottom: 15%;
 }
 
-.button-projects{
-  text-align: center;
-}
-
-#projects{
-  width: 168px;
-  height: 168px;
-}
-
-.b-outlined-gray {
-    color: #acacac;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #acacac;
-    background: none;
-    font-weight: 200;
-    margin: 10% 0 5% 0;
-    font-size: 1.3em;
-}
-
-.b-outlined-gray:hover {
-    color: #f27222;
-    font-weight: 400;
-}
-
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media screen and  (min-width: 500px) {
@@ -1748,9 +1607,6 @@ input{
     margin-top: 0%;
   }
 
-  .b, .b-outlined-gray {
-    margin: 5% 0 5% 0;
-  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1758,18 +1614,11 @@ input{
   .learning-areas {
     margin-top: 0%;
   }
-
-  .b, .b-outlined-gray {
-    margin: 5% 0 5% 0;
-  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
 
-  .b, .b-outlined-gray {
-    margin: 3% 0 5% 0;
-  }
 
 }
 
@@ -1884,12 +1733,10 @@ input{
   margin-top: 5% !important;
 }
 
-.container-logos{
-  max-width: 1140px !important;
-}
-.companies-logos{
+/*.container-logos{
 
-}
+  margin-left: 10% !important;
+}*/
 
 .copmanies-logo{
   padding: 0 15%;
@@ -1898,39 +1745,45 @@ input{
 
 .img-logo{
   display: block;
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
 }
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media screen and  (min-width: 200px) {
+  .container-logos{
+    max-width: 1140px !important;
+    margin-left: 30% !important;
+  }
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-
+  .container-logos{
+    max-width: 1140px !important;
+    margin-left: 30% !important;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
-  .space120{
-  display: inline-block;
-  height: 90px;
+  .container-logos{
+    max-width: 1140px !important;
+    margin-left: 10% !important;
   }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .container-logos{
+    max-width: 1140px !important;
+    margin-left: 10% !important;
+  }
 }
 
-
-
-
 /* ------------------- 1_7_home_Meet the Team --------------------------- 1_7_home_Meet the Team------------------ */
-
-
 
 .meet-the-team {
 	padding-top: 3%;

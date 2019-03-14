@@ -4,6 +4,18 @@
 
 		<div class="main-navigation-page">
 			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="preheader">
+					<div class="social-media">
+						<a href="https://www.facebook.com/sokotech/" class="facebook">
+							<img src="../img/10/f.png" class="icon" alt=""/></a>
+						<a href="https://www.twitter.com/sokotech/" class="twitter">
+							<img src="../img/10/tw.png" class="icon" alt=""/></a>
+						<a href="https://www.instagram.com/sokotech/" class="instagram">
+							<img src="../img/10/ins.png" class="icon" alt=""/></a>
+						<!--<a href="https://www.linkedin.com/company/sokotech" class="linkedin">
+							<img src="../img/10/lin.png" class="icon" alt=""/></a>-->
+					</div>
+				</div>
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
@@ -19,21 +31,32 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="events">Eventos</a></li>
-							<li><a href="">Aprende</a></li>
-							<li><a href="fablab">Construye</a></li>
-							<li><a href="about">Nosotros</a></li>
-							<li><a href="#contact">Contacto</a></li>
-							<li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Idioma<span class="caret"></span></a>
-	          <ul class="dropdown-menu" id="lang-selector">
-	            <li><a href="#">CAT</a></li>
-	            <li><a href="#">ES</a></li>
-	            <li><a href="#">ENG</a></li>
-	          </ul>
-	        </li>
-			      </ul>
+						<ul class="nav navbar-nav navbar-right">
+				        <li><a href="events">Home</a></li><!--{{ .item.StNavItemOne }}-->
+								<!--{{ .item.StNavItemTwo }}-->
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+									role="button" aria-haspopup="true" aria-expanded="false">Projects<span
+									class="caret"></span></a>
+									<ul class="dropdown-menu" id="lang-selector">
+										<li><a href="#">Education</a></li>
+										<li><a href="#">Events</a></li>
+										<li><a href="#">Comunication</a></li>
+										<li><a href="#">Lab</a></li>
+									</ul>
+								</li>
+								<!--<li><a href="fablab">{{ .item.StNavItemThree }}</a></li>
+								<li><a href="about">{{ .item.StNavItemFour }}</a></li>-->
+								<li><a href="#contact">Contact</a></li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+									role="button" aria-haspopup="true" aria-expanded="false">Language<span
+									class="caret"></span></a>
+		          	<ul class="dropdown-menu" id="lang-selector">
+		           	<li><a href="#">CAT</a></li>
+		            <li><a href="#">ES</a></li>
+		            <li><a href="#">ENG</a></li>
+									</ul>
+		        				</li>
+				      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
 				<div class="breadcrumb-bar">
