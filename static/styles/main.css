@@ -999,8 +999,9 @@ input{
 
 
 
-.header-description {
-	margin: 60% 0 20%;
+.test-header-description {
+	margin: 11% 0 20%;
+
 }
 
 
@@ -2608,9 +2609,44 @@ input:invalid {
 
 /* --------------------------- 3_education -------------------- 3_education ---------------------- */
 
+.titulo-video{
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  top: 50%;
+  height: 500px;
+}
+.title{
+  height: 495px;
+}
+.tagline{
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.tagline h2{
+  font-size: 3em !important;
+}
+.tagline h4{
+  top: -20px;
+  display: inline-block;
+  padding: 5px;
+  background-color: #f27222;
+  color: white;
+}
+
+.video{
+  height: 495px;
+}
+.video-content{
+  margin-top: 20%;
+  margin-right: 15%;
+}
+
 .st_headline{
   margin-top: 1%;
 }
+
 
 .education-upcoming-workshops {
 	background-color: #D2D0CE;
@@ -2631,7 +2667,7 @@ input:invalid {
 
 .text-block-centered-education{
   text-align: center;
-  margin-top: -62%;
+  margin: -62% 0 !important;
 }
 
 .education-learning-areas{
@@ -2655,7 +2691,7 @@ input:invalid {
 
   .text-block-centered-education{
     text-align: center;
-    margin-top: -105%;
+    margin: -120% 0 !important;
   }
 
   .education-learning-areas{
@@ -2699,12 +2735,12 @@ input:invalid {
 
   .text-block-centered-education{
     text-align: center;
-    margin-top: -65%;
+    margin: -50% 0 !important;
   }
 
   .education-learning-areas{
     text-align: center;
-    margin-top: -55%;
+    margin-top: -45%;
   }
 
   .text-block-centered-education-areas{
