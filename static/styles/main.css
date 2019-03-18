@@ -44,11 +44,15 @@ a{
 	color: #f27222 !important;
 }
 
+li a{
+  color: black !important;
+}
+
 p{
 	font-family:"roboto";
 	font-size: 21px;
 	color: #434343;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 30px;
 	margin: 0;
 	padding: 0;
@@ -2171,7 +2175,7 @@ input{
 
 .footer-box-gray{
 	width: 100%;
-	height: 1%;
+	height: auto;
 	background-color: #272726;
 	padding: 4% 10%;
 }
@@ -2477,7 +2481,7 @@ input:invalid {
 
   .footer-box-gray {
     padding: 4% 5%;
-    height: 320px;
+    height: auto;
     margin-top: -5%;
   }
 
@@ -2593,7 +2597,7 @@ input:invalid {
 
   .footer-box-gray {
       padding: 3% 9%;
-      height: 350px;
+      height: auto;
   }
 
   #footer-box-gray-left hr {
@@ -2614,7 +2618,6 @@ input:invalid {
   width: 100%;
   background-color: #fff;
   top: 50%;
-  height: 500px;
 }
 .title{
   height: 495px;
@@ -2623,9 +2626,11 @@ input:invalid {
   text-align: left;
   margin-top: 10%;
   margin-left: 15%;
+  margin-right: 5%;
 }
 .tagline h2{
   font-size: 3em !important;
+  /* font-weight: 600; */
 }
 .tagline h4{
   top: -20px;
@@ -2633,14 +2638,22 @@ input:invalid {
   padding: 5px;
   background-color: #f27222;
   color: white;
+  font-size: 1.3em !important;
+  font-weight: 300 !important;
+}
+.tagline p{
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
-.video{
-  height: 495px;
-}
 .video-content{
-  margin-top: 20%;
+  margin-top: 18%;
+  margin-left: 3%;
   margin-right: 15%;
+}
+.video-content img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .st_headline{
@@ -2649,6 +2662,7 @@ input:invalid {
 
 
 .education-upcoming-workshops {
+  margin-top: -15%;
 	background-color: #D2D0CE;
 }
 
@@ -2752,20 +2766,23 @@ input:invalid {
 
 
 /* --------------------------- 4_events ------------------------------ 4_events ------------------------ */
+.titulo-video-events{
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10%;
+}
 
 .events-latest-projects {
 	background-color: #D2D0CE;
+  text-align: center;
+  /* margin-top: -60%; */
+  /* height: 100%; */
 }
 
 .text-block-centered-events{
   text-align: center;
-  margin-top: -70%;
-}
-
-.events-latest-projects{
-  text-align: center;
-  margin-top: -60%;
-  height: 300px;
+  /* margin-top: -70%; */
 }
 
 
