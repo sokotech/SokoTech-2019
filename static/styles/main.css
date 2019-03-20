@@ -5,8 +5,6 @@ html {
 }
 
 header, body, html {
-height: 100%;
-margin: 0;
 }
 
 h1,h2,h3{
@@ -135,7 +133,11 @@ button{
   text-transform: none !important;
   font-weight: 400;
 }
-/* Small devices (tablets, 768px and up) */
+
+.header-section-home {
+  height: 650px;
+}
+ /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
   h2{
@@ -1003,11 +1005,6 @@ input{
 
 
 
-.test-header-description {
-	margin: 11% 0 20%;
-
-}
-
 
 .row-logos{
   weight: auto;
@@ -1102,7 +1099,6 @@ input{
   .text-block-centered p {
     font-size: 1.2em;
   }
-
 }
 
 /* ------------------ 1_2_home_photo_buttons ----------------------------------- 1_2_home_photo_buttons ----------------------- */
@@ -2227,7 +2223,6 @@ margin: 15% 0 0 0;
   margin-bottom: 8%;
 }
 
-
 #footer-box-gray-right h5{
 	color: white;
 	font-size: 1.2em;
@@ -2249,7 +2244,6 @@ margin: 15% 0 0 0;
 	width: 30% !important;
 }
 
-
 .footer-sm {
 	position: relative;
 	display: inline-block;
@@ -2260,9 +2254,6 @@ margin: 15% 0 0 0;
 	color: white;
 	font-size: 1.2em;
 }
-
-
-
 
 .ftr-cont2{
 	display: inline-block;
@@ -2429,9 +2420,6 @@ input:invalid {
   box-shadow: none;
 }
 
-
-
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -2474,9 +2462,9 @@ input:invalid {
 		width: 20px;
     }
     .footer-sm {
-	position: relative;
-	display: inline-block;
-	top: -10px;
+  	position: relative;
+  	display: inline-block;
+  	top: -10px;
   }
 
   .footer-box-gray {
@@ -2510,15 +2498,12 @@ input:invalid {
       font-size: 1.1em;
     }
 
-
     #footer-box-gray-middle {
       margin: 0;
       margin-top: 3%;
     }
 
-
     #footer-box-gray-middle hr {
-
       margin-top: 0% !important;
       margin-bottom: 1% !important;
     }
@@ -2613,6 +2598,10 @@ input:invalid {
 
 /* --------------------------- 3_education -------------------- 3_education ---------------------- */
 
+.test-header-description {
+	margin: 13% 0 20%;
+}
+
 .titulo-video{
   display: inline-block;
   width: 100%;
@@ -2624,9 +2613,8 @@ input:invalid {
 }
 .tagline{
   text-align: left;
-  margin-top: 10%;
-  margin-left: 15%;
-  margin-right: 5%;
+  padding-top: 10%;
+  padding-right: 5%;
 }
 .tagline h2{
   font-size: 3em !important;
@@ -2647,16 +2635,12 @@ input:invalid {
 }
 
 .video-content{
-  margin-top: 18%;
-  margin-left: 0%;
-  margin-right: 15%;
+  padding-top: 12%;
 }
 .video-content img{
   max-width: 100%;
   max-height: 100%;
 }
-
-
 
 .education-upcoming-workshops {
   margin-top: -35%;
@@ -2667,7 +2651,6 @@ input:invalid {
 	background-color: #fff;
   margin-bottom: 7%;
 }
-
 
 .education-feedback {
 	background-color: #D2D0CE;
@@ -2683,71 +2666,59 @@ input:invalid {
   text-align: center;
 }
 
-.text-block-centered-education-areas{
+.text-block-centered-upcoming-workshops{
   text-align: center;
-  margin-top: -2%;
+  margin-top: 17%;
 }
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-@media screen and  (min-width: 400px) {
-  .titulo-video{
-    margin: -140% 10% 10% 0% !important;
-    padding-top: 0%;
+@media screen and  (min-width: 300px) {
+
+  .description{
+    padding: 0;
+    margin: 40% auto;
   }
 
-  /* .video-content{
-    margin-top: 0%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5%;
-  } */
+}
 
-  .text-block-centered-education-areas{
-    text-align: center;
-    margin-top: -2%;
+@media screen and  (min-width: 500px) {
+
+  .description{
+    padding: 0;
+    margin: 25% auto;
   }
+
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-  .titulo-video{
-    margin: -95% 10% 10% 0% !important;
-    padding-top: 0%;
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 
-  .text-block-centered-education-areas{
-    text-align: center;
-    margin-top: -2%;
-  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-   .titulo-video{
-    margin: -75% 10% 10% 0% !important;
-    padding-top: 0%;
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 
-  .text-block-centered-education-areas{
-    text-align: center;
-    margin-top: -2%;
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-  .titulo-video{
-    margin: 0% 10% 10% 0% !important;
-    padding-top: 0%;
-  }
 
-  .text-block-centered-education-areas{
-    text-align: center;
-    margin-top: -2%;
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 
 }
-
 
 /* --------------------------- 4_events ------------------------------ 4_events ------------------------ */
 .titulo-video-events{
@@ -2760,8 +2731,7 @@ input:invalid {
 .events-latest-projects {
 	background-color: #D2D0CE;
   text-align: center;
-  margin-top: -25%;
-  /* height: 100%; */
+  margin-top: -22%;
 }
 
 .events-custom-workshops {
@@ -2772,9 +2742,7 @@ input:invalid {
 
 .text-block-centered-events{
   text-align: center;
-  /* margin-top: -70%; */
 }
-
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -2794,14 +2762,13 @@ input:invalid {
 
 }
 
-
-
 /* --------------------------- 5_medialab ------------------------------ 5_medialab ------------------------ */
 
 .medialab-work-method {
 	background-color: #D2D0CE;
   padding: 5% 0;
   margin: 0% 0;
+  text-align: center;
 }
 
 .text-block-centered-medialab{
@@ -2811,13 +2778,13 @@ input:invalid {
 
 .medialab-photo-buttons{
   text-align: center;
-  margin-top: -25%;
+  margin-top: -22%;
 }
 
 .medialab-more-info{
   text-align: center;
   margin-top: 0%;
-  height: 500px;
+  height: 500px !important;
 }
 
 .text-block-centered-lastest-projects{
@@ -2827,7 +2794,13 @@ input:invalid {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+@media screen and (min-width: 300px){
+  .medialab-more-info{
+    text-align: center;
+    margin-top: 0%;
+    height: 700px;
+  }
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
@@ -2843,10 +2816,7 @@ input:invalid {
 
 }
 
-
-
 /* --------------------------- 6_fablab ------------------------------ 6_fablab ------------------------ */
-
 
 .text-block-centered-fablab{
   text-align: center;
@@ -2857,10 +2827,11 @@ input:invalid {
   background-color: #D2D0CE;
   padding: 5% 0;
   margin: -30% 0;
+  text-align: center;
 }
 .fablab-photo-buttons{
   text-align: center;
-  margin-top: -30%;
+  margin-top: -20%;
   margin-bottom: 30%;
 }
 
@@ -2888,15 +2859,13 @@ input:invalid {
 
 }
 
-
-
-
 /* --------------------------- 7_space ------------------------------ 7_space ------------------------ */
 
 .space-details {
   background-color: #D2D0CE;
   padding: 5% 0;
-  margin: -35% 0;
+  margin: -27% 0;
+  text-align: center;
 }
 
 .text-block-centered-space{
@@ -2909,7 +2878,6 @@ input:invalid {
   margin-top: 35%;
   height: 500px;
 }
-
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -2929,12 +2897,9 @@ input:invalid {
 
 }
 
-
-
 /* --------------------------- 8_history ------------------------------ 8_history ------------------------- */
 #history-timeline-container {
   padding: 0 0 5% 0;
-
 }
 
 #hist_img{
@@ -2968,7 +2933,6 @@ input:invalid {
   padding: 0;
   overflow: hidden;
 }
-
 
 .Bubble-h{
   position: relative;
@@ -3040,7 +3004,6 @@ input:invalid {
 	max-width: 450px;
 
 }
-
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
