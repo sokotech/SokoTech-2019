@@ -2618,7 +2618,6 @@ input:invalid {
 }
 .tagline h2{
   font-size: 3em !important;
-  /* font-weight: 600; */
 }
 .tagline h4{
   top: -20px;
@@ -2652,10 +2651,10 @@ input:invalid {
   margin-bottom: 7%;
 }
 
-.education-feedback {
+/* .education-feedback {
 	background-color: #D2D0CE;
   height: 50%;
-}
+} */
 
 .text-block-centered-education{
   text-align: center;
@@ -2782,11 +2781,11 @@ input:invalid {
   margin-top: -22%;
 }
 
-.medialab-more-info{
+/* .medialab-more-info{
   text-align: center;
   margin-top: 0%;
   height: 500px !important;
-}
+} */
 
 .text-block-centered-lastest-projects{
   text-align: center;
@@ -2799,22 +2798,34 @@ input:invalid {
   .medialab-more-info{
     text-align: center;
     margin-top: 0%;
-    height: 700px;
+    height: 700px !important;
   }
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-
+  .medialab-more-info{
+    text-align: center;
+    margin-top: 0%;
+    height: 500px !important;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
+  .medialab-more-info{
+    text-align: center;
+    margin-top: 0%;
+    height: 500px !important;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .medialab-more-info{
+    text-align: center;
+    margin-top: 0%;
+    height: 500px !important;
+  }
 }
 
 /* --------------------------- 6_fablab ------------------------------ 6_fablab ------------------------ */
@@ -2844,20 +2855,38 @@ input:invalid {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+@media screen and  (min-width: 300px) {
+  .fablab-more-info{
+    text-align: center;
+    margin-top: 30%;
+    height: 700px;
+  }
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-
+  .fablab-more-info{
+    text-align: center;
+    margin-top: 30%;
+    height: 700px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
+  .fablab-more-info{
+    text-align: center;
+    margin-top: 30%;
+    height: 530px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .fablab-more-info{
+    text-align: center;
+    margin-top: 30%;
+    height: 530px;
+  }
 }
 
 /* --------------------------- 7_space ------------------------------ 7_space ------------------------ */
@@ -2882,20 +2911,38 @@ input:invalid {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+@media screen and  (min-width: 300px) {
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 700px;
+  }
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 500px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 500px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 500px;
+  }
 }
 
 /* --------------------------- 8_history ------------------------------ 8_history ------------------------- */
