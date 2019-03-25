@@ -346,7 +346,7 @@ button{
 .bg_img {
 	background-color: #f27222;
     /* The image used */
-    background-image: url('../img/01/stage.jpg');
+    background-image: url('../img/01/SMASHING_74.jpg');
     background-blend-mode: multiply;
     /* Full height */
     height: 100%;
@@ -1039,7 +1039,7 @@ input{
 @media screen and  (min-width: 400px) {
 
   .header-description-home {
-    margin: 1% 0 5%;
+    margin: 5% 0 3%;
   }
 
 }
@@ -1048,7 +1048,7 @@ input{
 @media screen and  (min-width: 500px) {
 
   .header-description-home {
-    margin: 1% 0 5%;
+    margin: 5% 0 3%;
   }
 
 
@@ -1058,7 +1058,7 @@ input{
 @media screen and  (min-width: 768px) {
 
   .header-description-home {
-    margin: 1% 0 5%;
+    margin: 5% 0 3%;
   }
 
   .home-main-description-block {
@@ -1071,7 +1071,7 @@ input{
 @media screen and (min-width: 992px) {
 
   .header-description-home {
-    margin: 1% 0 5%;
+    margin: 5% 0 3%;
   }
 
   .home-main-description-block {
@@ -1089,7 +1089,7 @@ input{
 @media screen and (min-width: 1200px) {
 
   .header-description-home {
-    margin: 1% 0 5%;
+    margin: 5% 0 3%;
   }
 
   .home-main-description-block {
@@ -2470,7 +2470,7 @@ input:invalid {
   .footer-box-gray {
     padding: 4% 5%;
     height: auto;
-    margin-top: -5%;
+    margin-top: -2%;
   }
 
     #footer-box-gray-left {
@@ -2634,9 +2634,17 @@ input:invalid {
 }
 
 .video-content{
-  padding-top: 12%;
+  padding-top: 20%;
 }
 .video-content img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-content{
+  padding-top: 7%;
+}
+.img-content img{
   max-width: 100%;
   max-height: 100%;
 }
@@ -2663,6 +2671,7 @@ input:invalid {
 
 .education-learning-areas{
   text-align: center;
+
 }
 
 .text-block-centered-upcoming-workshops{
@@ -2677,7 +2686,7 @@ input:invalid {
 
   .description{
     padding: 0;
-    margin: 40% auto;
+    margin: 80% auto;
   }
 
 }
@@ -2686,7 +2695,7 @@ input:invalid {
 
   .description{
     padding: 0;
-    margin: 25% auto;
+    margin: 73% auto;
   }
 
 }
