@@ -294,7 +294,7 @@ button{
 .st_headline {
   position: absolute;
   top:50%;
-  left: 50%;
+  left: 39%;
   transform: translate(-50%, -50%);
 }
 
@@ -937,7 +937,7 @@ input{
   .st_headline {
     position: absolute;
     top:53%;
-    left: 50%;
+    left: 41%;
     transform: translate(-50%, -50%);
   }
 
