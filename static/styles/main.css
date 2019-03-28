@@ -951,7 +951,7 @@ input{
     width: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0,0,0,0.85);
-    padding: 0 2.5% 2%;
+    padding: 0 2.5% 0%;
   }
 
   .st_headline h1{
@@ -1107,7 +1107,7 @@ input{
 
   .home-main-description-block {
     margin: 0 10% 7% 10%;
-    background: blue;
+    background: #fff;
   }
 
   .text-block-centered p {
