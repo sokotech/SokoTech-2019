@@ -296,8 +296,11 @@ button{
 .st_headline {
   position: absolute;
   top:50%;
-  left: 39%;
+  left: 36%;
+  width: 50%;
   transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.85);
+  padding: 0 2.5% 0%;
 }
 
 .st_headline h1{
@@ -665,9 +668,12 @@ input{
 
   .st_headline {
     position: absolute;
-    top:40%;
-    left: 50%;
+    top:50%;
+    left: 36%;
+    width: 50%;
     transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.85);
+    padding: 0 2.5% 0%;
   }
 
   .st_headline h1{
@@ -772,9 +778,12 @@ input{
 
   .st_headline {
     position: absolute;
-    top:45%;
-    left: 50%;
+    top:50%;
+    left: 36%;
+    width: 50%;
     transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.85);
+    padding: 0 2.5% 0%;
   }
 
   .st_headline h1{
@@ -865,9 +874,12 @@ input{
 
   .st_headline {
     position: absolute;
-    top:45%;
-    left: 50%;
+    top:50%;
+    left: 36%;
+    width: 50%;
     transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.85);
+    padding: 0 2.5% 0%;
   }
 
   .st_headline h1{
@@ -1017,8 +1029,6 @@ input{
 /* ------------------ 1_1_home_header_description ----------------------------------- 1_1_home_header_description ---------------- */
 
 
-
-
 .row-logos{
   weight: auto;
   margin-bottom: 15%;
@@ -1045,6 +1055,20 @@ input{
 .text-block-centered p{
   font-size: 1.1em;
 	padding: 0 5%;
+}
+
+.impact{
+  margin-top: 2%;
+}
+.impact h2{
+  text-align: left;
+  font-size: 3em !important;
+  margin-left: 2% !important;
+}
+.impact p{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-left: 2% !important;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -2701,7 +2725,7 @@ input:invalid {
 
   .description{
     padding: 0;
-    margin: 80% auto;
+    margin: 55% auto;
   }
 
 }
@@ -2710,7 +2734,7 @@ input:invalid {
 
   .description{
     padding: 0;
-    margin: 73% auto;
+    margin: 30% auto;
   }
 
 }
@@ -2770,19 +2794,50 @@ input:invalid {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media screen and  (min-width: 300px) {
 
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+}
+
+@media screen and  (min-width: 500px) {
+
+  .description{
+    padding: 0;
+    margin: 30% auto;
+  }
+
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
+  }
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
 
+  .description{
+    padding: 0;
+    margin: 0% auto;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
+  }
 
 }
 
@@ -2824,6 +2879,18 @@ input:invalid {
     margin-top: 0%;
     height: 700px !important;
   }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+}
+
+@media screen and (min-width: 500px){
+  .description{
+    padding: 0;
+    margin: 30% auto;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
@@ -2831,6 +2898,11 @@ input:invalid {
     text-align: center;
     margin-top: 0%;
     height: 500px !important;
+  }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 }
 
@@ -2841,6 +2913,11 @@ input:invalid {
     margin-top: 0%;
     height: 500px !important;
   }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -2849,6 +2926,11 @@ input:invalid {
     text-align: center;
     margin-top: 0%;
     height: 500px !important;
+  }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 }
 
@@ -2885,6 +2967,18 @@ input:invalid {
     margin-top: 30%;
     height: 700px;
   }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+}
+
+@media screen and (min-widht: 500px){
+  .description{
+    padding: 0;
+    margin: 30% auto;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
@@ -2892,6 +2986,11 @@ input:invalid {
     text-align: center;
     margin-top: 30%;
     height: 700px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 }
 
@@ -2902,6 +3001,11 @@ input:invalid {
     margin-top: 30%;
     height: 530px;
   }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -2910,6 +3014,11 @@ input:invalid {
     text-align: center;
     margin-top: 30%;
     height: 530px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 }
 
@@ -2941,6 +3050,18 @@ input:invalid {
     margin-top: 35%;
     height: 700px;
   }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+}
+
+@media screen and (min-widht: 500px){
+  .description{
+    padding: 0;
+    margin: 30% auto;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
@@ -2948,6 +3069,11 @@ input:invalid {
     text-align: center;
     margin-top: 35%;
     height: 500px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 }
 
@@ -2958,6 +3084,11 @@ input:invalid {
     margin-top: 35%;
     height: 500px;
   }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -2966,6 +3097,11 @@ input:invalid {
     text-align: center;
     margin-top: 35%;
     height: 500px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 0% auto;
   }
 }
 
