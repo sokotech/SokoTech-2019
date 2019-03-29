@@ -139,6 +139,8 @@ button{
 .header-section-home {
   height: 650px;
 }
+
+
  /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
@@ -305,6 +307,13 @@ button{
 
 .st_headline h1{
    font-size: 2.5em !important;
+}
+
+.st_headline h2{
+  color: white !important;
+  text-align: left;
+  line-height:1.4;
+  font-size: 2.5em;
 }
 
 .subhead{
@@ -790,6 +799,13 @@ input{
      font-size: 4em !important;
   }
 
+  .st_headline h2{
+    color: white !important;
+    text-align: left;
+    line-height:1.4;
+    font-size: 2.5em;
+  }
+
   .overlay nav {
     height: 25%;
     top: 27%;
@@ -886,6 +902,13 @@ input{
      font-size: 4.5em !important;
   }
 
+  .st_headline h2{
+    color: white !important;
+    text-align: left;
+    line-height:1.4;
+    font-size: 2.5em;
+  }
+
   .overlay ul li {
     font-size: 1em;
     margin-bottom: 10%;
@@ -968,6 +991,13 @@ input{
 
   .st_headline h1{
      font-size: 5em !important;
+  }
+
+  .st_headline h2{
+    color: white !important;
+    text-align: left;
+    line-height:1.4;
+    font-size: 2.5em;
   }
 
   .subhead h4 {
@@ -1071,6 +1101,11 @@ input{
   margin-left: 2% !important;
 }
 
+.icons-home{
+  margin-top: 10%;
+  margin-left:3%;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media screen and  (min-width: 400px) {
@@ -1079,6 +1114,14 @@ input{
     margin: 5% 0 3%;
   }
 
+  .icons-home{
+    margin-top: 10%;
+    margin-left:-10%;
+  }
+
+  .icons-home-2{
+    margin-left:-7%;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1136,6 +1179,15 @@ input{
 
   .text-block-centered p {
     font-size: 1.2em;
+  }
+
+  .icons-home{
+    margin-top: 10%;
+    margin-left:3%;
+  }
+
+  .icons-home-2{
+    margin-left:0%;
   }
 }
 
@@ -2728,6 +2780,23 @@ input:invalid {
     margin: 55% auto;
   }
 
+  .video-content{
+    padding-top: 268%;
+  }
+
+}
+
+@media screen and  (min-width: 400px) {
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content{
+    padding-top: 80%;
+  }
+
 }
 
 @media screen and  (min-width: 500px) {
@@ -2735,6 +2804,10 @@ input:invalid {
   .description{
     padding: 0;
     margin: 30% auto;
+  }
+
+  .video-content{
+    padding-top: 20%;
   }
 
 }
@@ -2792,6 +2865,11 @@ input:invalid {
   text-align: center;
 }
 
+.video-content-events img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media screen and  (min-width: 300px) {
@@ -2799,6 +2877,23 @@ input:invalid {
   .description{
     padding: 0;
     margin: 55% auto;
+  }
+
+  .video-content-events{
+    padding-top: 170%;
+  }
+
+}
+
+@media screen and  (min-width: 400px) {
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content-events{
+    padding-top: 40%;
   }
 
 }
@@ -2810,6 +2905,10 @@ input:invalid {
     margin: 30% auto;
   }
 
+  .video-content-events{
+    padding-top: 0%;
+  }
+
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
@@ -2817,6 +2916,10 @@ input:invalid {
   .description{
     padding: 0;
     margin: 0% auto;
+  }
+
+  .video-content-events{
+    padding-top: 20%;
   }
 
 }
@@ -2829,6 +2932,10 @@ input:invalid {
     margin: 0% auto;
   }
 
+  .video-content-events{
+    padding-top: 20%;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -2837,6 +2944,10 @@ input:invalid {
   .description{
     padding: 0;
     margin: 0% auto;
+  }
+
+  .video-content-events{
+    padding-top: 20%;
   }
 
 }
@@ -2959,6 +3070,14 @@ input:invalid {
   height: 530px;
 }
 
+.video-content-fablab{
+  padding-top: 20%;
+}
+.video-content-fablab img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media screen and  (min-width: 300px) {
@@ -2972,12 +3091,43 @@ input:invalid {
     padding: 0;
     margin: 55% auto;
   }
+
+  .video-content-fablab{
+    padding-top: 150%;
+  }
 }
 
-@media screen and (min-widht: 500px){
+@media screen and  (min-width: 400px) {
+  .fablab-more-info{
+    text-align: center;
+    margin-top: 30%;
+    height: 700px;
+  }
+
   .description{
     padding: 0;
-    margin: 30% auto;
+    margin: 55% auto;
+  }
+
+  .video-content-fablab{
+    padding-top: 40%;
+  }
+}
+
+@media screen and  (min-width: 500px) {
+  .fablab-more-info{
+    text-align: center;
+    margin-top: 30%;
+    height: 700px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content-fablab{
+    padding-top: 0%;
   }
 }
 /* Small devices (tablets, 768px and up) */
@@ -2991,6 +3141,10 @@ input:invalid {
   .description{
     padding: 0;
     margin: 0% auto;
+  }
+
+  .video-content-fablab{
+    padding-top: 15%;
   }
 }
 
@@ -3006,6 +3160,10 @@ input:invalid {
     padding: 0;
     margin: 0% auto;
   }
+
+  .video-content-fablab{
+    padding-top: 10%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -3019,6 +3177,10 @@ input:invalid {
   .description{
     padding: 0;
     margin: 0% auto;
+  }
+
+  .video-content-fablab{
+    padding-top: 20%;
   }
 }
 
@@ -3042,6 +3204,14 @@ input:invalid {
   height: 500px;
 }
 
+.video-content-space{
+  padding-top: 20%;
+}
+.video-content-space img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media screen and  (min-width: 300px) {
@@ -3055,12 +3225,60 @@ input:invalid {
     padding: 0;
     margin: 55% auto;
   }
+
+  .video-content-space{
+    padding-top: 260%;
+  }
 }
 
-@media screen and (min-widht: 500px){
+@media screen and  (min-width: 300px) {
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 700px;
+  }
+
   .description{
     padding: 0;
-    margin: 30% auto;
+    margin: 55% auto;
+  }
+
+  .video-content-space{
+    padding-top: 80%;
+  }
+}
+
+@media screen and  (min-width: 400px) {
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 700px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content-space{
+    padding-top: 80%;
+  }
+}
+
+@media screen and  (min-width: 500px) {
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 700px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content-space{
+    padding-top: 40%;
   }
 }
 /* Small devices (tablets, 768px and up) */
