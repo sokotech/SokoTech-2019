@@ -1,40 +1,22 @@
-/* ------------------ General ----------------------------------------------- General ----------------------------- */
+/* ----- fonts --------- */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,800,900');
+
+/* ----- General --------- */
 
 html {
   scroll-behavior: smooth;
 }
 
-header, body, html {
-}
-
 h1,h2,h3{
-	font-family: "Prompt" !important; /* 'Mallanna', sans-serif !important */
-	text-transform:uppercase !important;
-}
-h1{
-	font-size: 72px !important;
-	color: #fff !important;
-	font-weight: 600 !important;
-	margin: 0 !important;
-	padding: 0 !important;
+	font-family: "Montserrat", sans-serif !important;
+	text-transform: uppercase;
 }
 
-h2 {
-	margin: 3% 0 !important;
-	font-weight: 500;
-}
-
-h3{
-	font-size: 18px !important;
-	color: #434343 !important;
-	font-weight: 500 !important;
-}
-h4{
-	font-family:"roboto" !important;
-	text-transform:uppercase !important;
-	font-size: 24px !important;
-	font-weight: 200 !important;
-	margin: 0 !important;
+.h2-title {
+  font-weight: 800;
+  font-size: 2.5em;
+  padding-bottom: 20px;
 }
 
 a{
@@ -54,6 +36,11 @@ p{
 	line-height: 30px;
 	margin: 0;
 	padding: 0;
+}
+
+.p-block-description {
+  font-size: 1.5em;
+  line-height: 1.4em;
 }
 
 
@@ -121,7 +108,7 @@ button{
 }
 
 .row {
-	margin: 0 !important;
+	margin: 0;
 }
 
 .text-block-centered-home {
@@ -137,7 +124,8 @@ button{
 }
 
 .header-section-home {
-  height: 650px;
+  height: 470px;
+  margin-bottom: 35px;
 }
 
 
@@ -166,7 +154,9 @@ button{
   	padding: 7px 50px;
   }
 
-
+  .header-section-home {
+    height: 650px;
+  }
 
   .text-block-centered {
     padding-top: 3%;
@@ -192,7 +182,8 @@ button{
 
 }
 
-/* ------------------ navbar ----------------------------------------- navbar ----------------- */
+/* ----- navbar ------- */
+
 .navbar-home {
   border-bottom: none !important;
 }
@@ -201,7 +192,6 @@ button{
   z-index: 15 !important;
   display: block;
   background-color: #fff !important;
-
 }
 
 .navbar-nav > li > a {
@@ -209,7 +199,6 @@ button{
   font-weight: 300;
   padding-top: 25px !important;
   padding-bottom: 25px !important;
-
 }
 
 .navbar-nav > li > a:hover{
@@ -236,7 +225,6 @@ button{
 .dropdown-menu > li > a:hover{
     color: gray !important;
 }
-
 
 .navbar-toggle {
     padding: 20px 10px;
@@ -269,15 +257,13 @@ button{
   background-color: #F27222;
 }
 
-/* ------------------ 1_0_home_Header ----------------------------------------- 1_0_home_Header ----------------- */
-
+/* ----- 1_0_home_Header ---------- */
 
 .logo{
 	position: absolute;
 	top: 25px;
 	left: 25px;
 	width: 110px;
-
 }
 
 .preheader{
@@ -295,101 +281,42 @@ button{
   padding-bottom: 0.5%;
 }
 
-.st_headline {
-  position: absolute;
-  top:50%;
-  left: 36%;
-  width: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0,0,0,0.85);
-  padding: 0 2.5% 0%;
-}
-
-.st_headline h1{
-   font-size: 2.5em !important;
-}
-
-.st_headline h2{
-  color: white !important;
-  text-align: left;
-  line-height:1.4;
-  font-size: 2.5em;
-}
-
-.subhead{
-	top: -20px;
-	display: inline-block;
-	padding: 5px;
-	background-color: #fff;
-	color: #f27222;
-}
-
-.subhead h4 {
-  font-size: 1em !important;
-}
-
-.arrow{
-	display: block;
-	width: 75px;
-}
-
-.tscr{
-	font-family:"roboto";
-	font-size: 16px;
-	font-weight: 200;
-	margin: 0;
-	opacity: 0;
-}
-
-.tmen {
-	font-size: 15px !important;
-}
-
-.arrow:hover{
-	transform: translateY(20px);
-	transition: 0.5s;
-}
-
-.arrow:hover .tscr{
-	color: white;
-    opacity: 1;
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-
-.bg_img {
+.hero {
 	background-color: #fff;
   opacity: 0.9;
-    /* The image used */
-    background-image: url('../img/01/SMASHING_74.jpg');
-    background-blend-mode: multiply;
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 11;
-    display: block;
-    position: relative;
+  /* The image used */
+  background-image: url('../img/01/SMASHING_74.jpg');
+  background-blend-mode: multiply;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 11;
+  display: block;
+  position: relative;
 }
 
-.bg_img_page {
-	background-color: #f27222;
-    /* The image used */
-    background-image: url('../img/01/stage.jpg');
-    background-blend-mode: multiply;
-    /* Full height */
-    height: 50%;
+#container-hero-description {
+  margin-right: 0;
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 11;
-    display: block;
-    position: relative;
+.hero-description {
+  display: block;
+  position: relative;
+  top: 130px;
+  background: rgba(0,0,0,0.85);
+  text-align: left;
+  padding: 1px 20px 2px 25px;
+  margin: 0 3%;
+  color: white;
+}
+
+.h1-hero-description {
+  font-size: 2em;
+  line-height: 1.37em;
+  font-weight: 700;
 }
 
 .bg-img-space {
@@ -409,56 +336,8 @@ button{
     position: relative;
 }
 
-#bg-icons-background-page{
-	position: absolute;
-  bottom: -1px;
-}
-
-#bg-icons-background{
-	position: absolute;
-  bottom: -1px;
-}
-
-#bg-icons-grid{
-  display: block;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  z-index: 1;
-  top: 100%;
-  height: 20%;
-  background: white;
-}
-
-#bg-icons-grid row{
-  background-color: white;
-}
-
-#bg_icons_2_element{
-	text-align: center;
-  margin-bottom: 5%;
-}
-
-#bg_icons_2_element img{
-	width: 50%;
-}
-
-#bg_icons_2_element h3{
-	font-size: 0.9em !important;
-}
-
-#scroll-anchor {
-  display: block;
-  position: absolute;
-  top: 130%;
-}
-
 label {
 	display: inline !important;
-}
-
-input{
-  display:none;
 }
 
 .square{
@@ -471,10 +350,6 @@ input{
   padding: 0
   align-items: center;
   justify-content: center;
-}
-
-.nav {
-  .height: 44%;
 }
 
 .square-subnav-item-1, .square-subnav-item-2, .square-subnav-item-3{
@@ -576,11 +451,6 @@ input{
   text-align: center;
 }
 
-.address h6{
-  font-weight: 400;
-  margin: 3% 0%;
-}
-
 .overlay ul {
 	list-style: none;
 	padding: 0;
@@ -614,53 +484,37 @@ input{
 	color: #aaa !important;
 }
 
-.lower~.overlay-hugeinc{
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-	transition: opacity 0.5s, visibility 0s 0.5s;
+#bg_icons_2_element {
+  text-align: center;
+  color: #3333;
 }
 
-#op:checked~.overlay-hugeinc{
-	opacity: 1;
-	visibility: visible;
-	-webkit-transition: opacity 0.5s;
-	transition: opacity 0.5s;
+.home-description-icons-row {
+  padding-bottom: 27px;
 }
 
-.overlay-hugeinc nav {
-	-moz-perspective: 300px;
+#home-description-icons-row-01 {
+  margin: 39px 0;
 }
 
-.overlay-hugeinc nav ul {
-	opacity: 0.4;
-	-webkit-transform: translateY(-25%) ;
-	transform: translateY(-25%) rotateX(35deg);
-	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-	transition: transform 0.5s, opacity 0.5s;
+#home-description-icons-row-02 {
+  margin: 20px 0;
 }
 
-#op:checked~.overlay-hugeinc nav ul {
-	opacity: 1;
-	transform: rotateX(0deg);
+.icons-home-2-img {
+  width: 35%;
 }
 
-#op:not(:checked)~.overlay-hugeinc nav ul {
-	-webkit-transform: translateY(-25%) ;
-	transform: translateY(-25%) ;
+.icons-home-2-name {
+  color: #333333;
 }
 
-.subhead h4 {
-	font-weight: 300 !important;
+.icons-home-2-img {
+  width: 47%;
 }
 
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* phones */
-/* Small devices (tablets, 768px and up) */
-@media screen and (min-width: 500px) {
+/* Small devices (tablets, 576px and up) */
+@media screen and (min-width: 576px) {
 
   .logo{
   	position: absolute;
@@ -669,37 +523,10 @@ input{
   	width: 1px;
   }
 
-  #scroll-anchor {
-    display: block;
-    position: absolute;
-    top: 130%;
-  }
-
-  .st_headline {
-    position: absolute;
-    top:50%;
-    left: 36%;
-    width: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.85);
-    padding: 0 2.5% 0%;
-  }
-
-  .st_headline h1{
-     font-size: 4em !important;
-  }
-
-  .st_headline h2{
-    color: white !important;
-    text-align: left;
-    line-height:1.4;
-    font-size: 2.5em;
-  }
-
   .overlay nav {
     height: 25%;
     top: 27%;
-}
+  }
 
   .overlay ul li {
   	display: block;
@@ -730,43 +557,16 @@ input{
   	font-size: 1.7em;
   }
 
-  .square {
-    display: flex;
-    width: 65%;
-  }
-
   #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
     font-size: 1.1em;
   }
 
-
-
-  #bg-icons-grid {
-    top: 96%;
-    padding: 0 10%;
-    height: 15%;
+  .hero-description {
+    display: block;
+    position: relative;
+    top: 230px;
+    margin: 0 9%;
   }
-
-  #bg_icons_2_element img{
-  	width: 25%;
-  }
-
-
-  #bg_icons_2_element h3{
-  	font-size: 1.2em !important;
-  }
-
-  .bg-icons-background{
-    position: absolute;
-    bottom: -1px;
-   }
-
-   .bg-icons-background-page{
-     top: 87%;
-     display: block;
-     position: absolute;
-    }
-
 
 }
 /* Small devices (tablets, 768px and up) */
@@ -779,33 +579,6 @@ input{
   	width: 1px;
   }
 
-  #scroll-anchor {
-    display: block;
-    position: absolute;
-    top: 130%;
-  }
-
-  .st_headline {
-    position: absolute;
-    top:50%;
-    left: 36%;
-    width: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.85);
-    padding: 0 2.5% 0%;
-  }
-
-  .st_headline h1{
-     font-size: 4em !important;
-  }
-
-  .st_headline h2{
-    color: white !important;
-    text-align: left;
-    line-height:1.4;
-    font-size: 2.5em;
-  }
-
   .overlay nav {
     height: 25%;
     top: 27%;
@@ -840,39 +613,26 @@ input{
   	font-size: 1.7em;
   }
 
-  .square {
-    display: flex;
-    width: 65%;
-  }
-
   #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
     font-size: 1.1em;
   }
 
-  #bg-icons-grid {
-    top: 96%;
-    padding: 0 10%;
-    height: 15%;
+  .hero-description {
+    display: block;
+    position: relative;
+    top: 230px;
+    margin: 0 6%;
   }
 
-  #bg_icons_2_element img{
-  	width: 25%;
+  .h1-hero-description {
+    font-size: 2.9em;
+    line-height: 1.3em;
+    font-weight: 700;
   }
 
-  #bg_icons_2_element h3{
-  	font-size: 1.2em !important;
+  .hero-container {
+    margin-right: 25%;
   }
-
-  .bg-icons-background{
-    position: absolute;
-    bottom: -1px;
-   }
-
-   .bg-icons-background-page{
-     top: 87%;
-     display: block;
-     position: absolute;
-    }
 
 }
 
@@ -888,87 +648,47 @@ input{
     top: 27%;
   }
 
-  .st_headline {
-    position: absolute;
-    top:50%;
-    left: 36%;
-    width: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.85);
-    padding: 0 2.5% 0%;
-  }
-
-  .st_headline h1{
-     font-size: 4.5em !important;
-  }
-
-  .st_headline h2{
-    color: white !important;
-    text-align: left;
-    line-height:1.4;
-    font-size: 2.5em;
-  }
-
   .overlay ul li {
     font-size: 1em;
     margin-bottom: 10%;
-  }
-
-  .subnav {
-    font-size: 0.4em;
-    font-weight: 300;
-  }
-
-  .square {
-    width: 40%;
   }
 
   #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
     font-size: 1.3em;
   }
 
-  #bg_icons_2_element img{
-  	width: 35%;
+  #container-hero-description {
+    margin-right: 19%;
   }
 
-  #bg_icons_2_element h3{
-  	font-size: 1.2em !important;
+  .hero-description {
+    display: block;
+    position: relative;
+    top: 230px;
+    margin: 0 9% 0 9%;
   }
 
-  #bg-icons-grid {
-    height: 17%;
-    top: 97%;
+  .h1-hero-description {
+    font-size: 3em;
+    line-height: 1.3em;
   }
 
-  .bg-icons-background {
-    position: absolute;
-    border-bottom: -1px;
+  .home-description-icons-row {
+    padding-bottom: 27px;
+  }
 
+  .icons-home-2-img {
+    width: 35%;
+  }
+
+  .icons-home-2-name {
+    color: #333333;
   }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
-.header-section-page {
-    height: auto;
-}
-
-  #scroll-anchor {
-    display: block;
-    position: absolute;
-    top: 110%;
-  }
-
-
-  .logo{
-  	width: 170px;
-  }
-
-  .logo-page{
-    display: none;
-  }
 
   .overlay nav {
       height: 25%;
@@ -977,41 +697,6 @@ input{
   .overlay ul li {
     font-size: 1em;
     margin-bottom: 10%;
-  }
-
-  .st_headline {
-    position: absolute;
-    top:50%;
-    left: 36%;
-    width: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.85);
-    padding: 0 2.5% 0%;
-  }
-
-  .st_headline h1{
-     font-size: 5em !important;
-  }
-
-  .st_headline h2{
-    color: white !important;
-    text-align: left;
-    line-height:1.4;
-    font-size: 2.5em;
-  }
-
-  .subhead h4 {
-    font-size: 1.3em !important;
-  }
-
-  .subnav {
-    font-size: 0.4em;
-    font-weight: 300;
-  }
-
-  .square {
-    width: 55%;
-    margin: 5% auto 5%;
   }
 
   .square-subnav-item-1 h6 a, .square-subnav-item-2 h6 a, .square-subnav-item-3 h6 a{
@@ -1033,153 +718,43 @@ input{
     margin: 0 2%;
   }
 
-
-  #bg-icons-grid {
-    top: 96%;
-    padding: 0 10%;
-    height: 15%;
-  }
-
-  .bg-icons-background{
-    position: absolute;
-    border-bottom: -1px;
-  }
-
-  #bg_icons_2_element img{
-  	width: 35%;
-  }
-
-  #bg_icons_2_element h3{
-  	font-size: 1.2em !important;
+  .hero-description {
+    margin: 0 27% 0 9%;
   }
 
 }
 
 
-/* ------------------ 1_1_home_header_description ----------------------------------- 1_1_home_header_description ---------------- */
+/* ---  1_1_home_header_description --------- */
 
 
-.row-logos{
-  weight: auto;
-  margin-bottom: 15%;
-  margin-top: 3%;
+.icons-home-2 {
+  padding: 45px 0 71px 0;
 }
 
-.header-description-page {
-	margin: 0% 0 10%;
-}
 
-.home-main-description-block {
-  margin: 0% 10% 10% 10% !important;
-}
 
-.text-block-centered {
-	text-align: center;
-  margin-bottom: 5%;
-}
-
-.text-block-centered h2{
-	font-size: 1.7em;
-}
-
-.text-block-centered p{
-  font-size: 1.1em;
-	padding: 0 5%;
-}
-
-.impact{
-  margin-top: 2%;
-}
-.impact h2{
-  text-align: left;
-  font-size: 3em !important;
-  margin-left: 2% !important;
-}
-.impact p{
-  font-size: 1.2em;
-  font-weight: 400;
-  margin-left: 2% !important;
-}
-
-.icons-home{
-  margin-top: 10%;
-  margin-left:3%;
-}
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-@media screen and  (min-width: 400px) {
+/* Small devices (tablets, 576px and up) */
+@media screen and  (min-width: 576px) {
 
   .header-description-home {
     margin: 5% 0 3%;
   }
-
-  .icons-home{
-    margin-top: 10%;
-    margin-left:-10%;
-  }
-
-  .icons-home-2{
-    margin-left:-7%;
-  }
-}
-
-/* Small devices (tablets, 768px and up) */
-@media screen and  (min-width: 500px) {
-
-  .header-description-home {
-    margin: 5% 0 3%;
-  }
-
 
 }
 
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
-  .header-description-home {
-    margin: 5% 0 3%;
-  }
-
-  .home-main-description-block {
-    margin: 0 10% 10% 10%;
-  }
-
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-  .header-description-home {
-    margin: 5% 0 3%;
-  }
-
-  .home-main-description-block {
-    margin: 0 10% 5% 10%;
-  }
-
-  .text-block-centered h2{
-  	font-size: 2em;
-    line-height: 1.5em;
-  }
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-
-  .header-description-home {
-    margin: 5% 0 3%;
-  }
-
-  .home-main-description-block {
-    margin: 0 10% 7% 10%;
-    background: #fff;
-  }
-
-  .text-block-centered p {
-    font-size: 1.2em;
-  }
 
   .icons-home{
     margin-top: 10%;
