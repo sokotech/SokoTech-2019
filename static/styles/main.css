@@ -436,7 +436,7 @@ button{
 
 #bg_icons_2_element{
 	text-align: center;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 
 #bg_icons_2_element img{
@@ -1693,9 +1693,18 @@ input{
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media screen and  (min-width: 400px) {
+  .learning-areas {
+    margin-top: -3%;
+    margin-bottom: 5%;
+  }
+
+}
+
 @media screen and  (min-width: 500px) {
   .learning-areas {
-    margin-top: 0%;
+    margin-top: -3%;
+    margin-bottom: 5%;
   }
 
 }
@@ -1703,19 +1712,26 @@ input{
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
   .learning-areas {
-    margin-top: 0%;
+    margin-top: -3%;
+    margin-bottom: 5%;
   }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
+  .learning-areas {
+    margin-top: -3%;
+    margin-bottom: 5%;
+  }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .learning-areas {
+    margin-top: -3%;
+    margin-bottom: 5%;
+  }
 }
 
 
@@ -1805,11 +1821,6 @@ input{
      margin: 5% 0 2% 0;
    }
 
- .learning-areas {
-   margin-top: 3%;
-   margin-bottom: 5%;
- }
-
 }
 
 
@@ -1845,7 +1856,7 @@ input{
 @media screen and  (min-width: 200px) {
   .container-logos{
     max-width: 1140px !important;
-    margin-left: 30% !important;
+    margin-left: 6% !important;
   }
 }
 
@@ -3446,8 +3457,70 @@ input:invalid {
   margin-top: 10%;
   line-height: 1.7em;
   font-size: 17px !important;
+  text-align: left;
 }
 
+@media screen and (min-width: 200px){
+  .description-about{
+    padding: 0;
+    margin: 10% auto;
+  }
+}
+
+@media screen and (min-width: 300px){
+  .description-about{
+    padding: 0;
+    margin: 10% auto;
+  }
+}
+@media screen and (min-width: 400px){
+  .description-about{
+    padding: 0;
+    margin: 35% auto;
+  }
+
+  .video-content-about{
+    padding-top: 280%;
+  }
+}
+@media screen and (min-width: 768px){
+  .description-about{
+    padding: 0;
+    margin: 20% auto;
+  }
+
+  .video-content-about{
+    padding-top: 70%;
+  }
+
+  .container-team{
+    margin-top:50%;
+  }
+}
+@media screen and (min-width: 992px){
+  .description-about{
+    padding: 0;
+    margin: 10% auto;
+  }
+
+  .container-team{
+    margin-top:20%;
+  }
+}
+@media screen and (min-width: 1200px){
+  .description-about{
+    padding: 0;
+    margin: 13% auto;
+  }
+
+  .video-content-about{
+    padding-top: 40%;
+  }
+
+  .container-team{
+    margin-top:12%;
+  }
+}
 
 /* --------------------------- 8_history ------------------------------ 8_history ------------------------- */
 #history-timeline-container {
