@@ -2289,7 +2289,7 @@ input:invalid {
 }
 .tagline{
   text-align: left;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-right: 5%;
 }
 .tagline h2{
@@ -2372,11 +2372,34 @@ input:invalid {
   }
 
   .video-content{
-    padding-top: 268%;
+    padding-top: 175%;
   }
 
   .img-content{
     padding-top: 271%;
+    padding-bottom: 15%;
+  }
+
+}
+
+@media screen and  (min-width: 350px) {
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .description-2{
+    padding: 0;
+    margin: -7% auto;
+  }
+
+  .video-content{
+    padding-top: 90%;
+  }
+
+  .img-content{
+    padding-top: 90%;
     padding-bottom: 15%;
   }
 
@@ -2387,6 +2410,12 @@ input:invalid {
   .description{
     padding: 0;
     margin: 55% auto;
+  }
+
+  .tagline{
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 5%;
   }
 
   .description-2{
@@ -2412,6 +2441,12 @@ input:invalid {
     margin: 30% auto;
   }
 
+  .tagline{
+    text-align: left;
+    padding-top: 0%;
+    padding-right: 5%;
+  }
+
   .video-content{
     padding-top: 20%;
   }
@@ -2424,6 +2459,12 @@ input:invalid {
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
+
+  .tagline{
+    text-align: left;
+    padding-top: 15%;
+    padding-right: 5%;
+  }
 
   .description{
     padding: 0;
@@ -2442,6 +2483,11 @@ input:invalid {
   .img-content{
     padding-top: 30%;
     padding-bottom: 15%;
+  }
+
+  .education-upcoming-workshops {
+    margin-top: -25%;
+  	background-color: #fff;
   }
 
 }
@@ -2463,6 +2509,11 @@ input:invalid {
     padding-bottom: 15%;
   }
 
+  .education-upcoming-workshops {
+    margin-top: -35%;
+  	background-color: #fff;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -2473,13 +2524,24 @@ input:invalid {
     margin: 0% auto;
   }
 
+  .tagline{
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 5%;
+  }
+
   .video-content{
-    padding-top: 20%;
+    padding-top: 10%;
   }
 
   .img-content{
-    padding-top: 5%;
+    padding-top: 0%;
     padding-bottom: 15%;
+  }
+
+  .education-upcoming-workshops {
+    margin-top: -35%;
+  	background-color: #fff;
   }
 
 }
@@ -2496,6 +2558,13 @@ input:invalid {
 	background-color: #fff;
   text-align: center;
   margin-top: -22%;
+}
+
+.events-row-projects{
+  clear: both;
+  float: left;
+  width: auto;
+  margin-top: -85%;
 }
 
 .events-custom-workshops {
@@ -2526,6 +2595,33 @@ input:invalid {
     padding-top: 170%;
   }
 
+  .events-row-projects{
+    clear: both;
+    float: left;
+    width: auto;
+    margin-top: 30%;
+  }
+
+}
+
+@media screen and  (min-width: 350px) {
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content-events{
+    padding-top: 65%;
+  }
+
+  .events-row-projects{
+    clear: both;
+    float: left;
+    width: auto;
+    margin-top: 30%;
+  }
+
 }
 
 @media screen and  (min-width: 400px) {
@@ -2537,6 +2633,13 @@ input:invalid {
 
   .video-content-events{
     padding-top: 40%;
+  }
+
+  .events-row-projects{
+    clear: both;
+    float: left;
+    width: auto;
+    margin-top: 15%;
   }
 
 }
@@ -2593,6 +2696,13 @@ input:invalid {
     padding-top: 20%;
   }
 
+  .events-row-projects{
+    clear: both;
+    float: left;
+    width: auto;
+    margin-top: -85%;
+  }
+
 }
 
 /* --------------------------- 5_medialab ------------------------------ 5_medialab ------------------------ */
@@ -2625,6 +2735,11 @@ input:invalid {
   margin-top: 100%;
 }
 
+.medialab-video-content img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media screen and (min-width: 300px){
@@ -2638,12 +2753,54 @@ input:invalid {
     padding: 0;
     margin: 55% auto;
   }
+
+  .medialab-video-content{
+    padding-top: 180%;
+  }
+}
+
+@media screen and (min-width: 350px){
+  .medialab-more-info{
+    text-align: center;
+    margin-top: 0%;
+    height: 700px !important;
+  }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .medialab-video-content{
+    padding-top: 120%;
+  }
+}
+
+@media screen and (min-width: 400px){
+  .medialab-more-info{
+    text-align: center;
+    margin-top: 0%;
+    height: 700px !important;
+  }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .medialab-video-content{
+    padding-top: 80%;
+  }
 }
 
 @media screen and (min-width: 500px){
   .description{
     padding: 0;
     margin: 30% auto;
+  }
+
+  .medialab-video-content{
+    padding-top: 20%;
   }
 }
 /* Small devices (tablets, 768px and up) */
@@ -2657,6 +2814,10 @@ input:invalid {
   .description{
     padding: 0;
     margin: 0% auto;
+  }
+
+  .medialab-video-content{
+    padding-top: 60%;
   }
 }
 
@@ -2672,6 +2833,10 @@ input:invalid {
     padding: 0;
     margin: 0% auto;
   }
+
+  .medialab-video-content{
+    padding-top: 40%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -2685,6 +2850,10 @@ input:invalid {
   .description{
     padding: 0;
     margin: 0% auto;
+  }
+
+  .medialab-video-content{
+    padding-top: 15%;
   }
 }
 
@@ -2740,6 +2909,23 @@ input:invalid {
   }
 }
 
+@media screen and  (min-width: 350px) {
+  .fablab-more-info{
+    text-align: center;
+    margin-top: 30%;
+    height: 700px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content-fablab{
+    padding-top: 55%;
+  }
+}
+
 @media screen and  (min-width: 400px) {
   .fablab-more-info{
     text-align: center;
@@ -2823,7 +3009,7 @@ input:invalid {
   }
 
   .video-content-fablab{
-    padding-top: 20%;
+    padding-top: 7%;
   }
 }
 
@@ -2871,6 +3057,23 @@ input:invalid {
 
   .video-content-space{
     padding-top: 260%;
+  }
+}
+
+@media screen and  (min-width: 350px) {
+  .space-more-info{
+    text-align: center;
+    margin-top: 35%;
+    height: 700px;
+  }
+
+  .description{
+    padding: 0;
+    margin: 55% auto;
+  }
+
+  .video-content-space{
+    padding-top: 95%;
   }
 }
 
@@ -2974,7 +3177,7 @@ input:invalid {
   }
 
   .video-content-space{
-    padding-top: 25%;
+    padding-top: 20%;
   }
 }
 
@@ -3047,6 +3250,21 @@ input:invalid {
     padding: 0;
     margin: 10% auto;
   }
+
+  .video-content-about{
+    padding-top: 470%;
+  }
+}
+
+@media screen and (min-width: 350px){
+  .description-about{
+    padding: 0;
+    margin: 10% auto;
+  }
+
+  .video-content-about{
+    padding-top: 310%;
+  }
 }
 @media screen and (min-width: 400px){
   .description-about{
@@ -3055,7 +3273,7 @@ input:invalid {
   }
 
   .video-content-about{
-    padding-top: 280%;
+    padding-top: 220%;
   }
 }
 @media screen and (min-width: 768px){
@@ -3065,7 +3283,7 @@ input:invalid {
   }
 
   .video-content-about{
-    padding-top: 70%;
+    padding-top: 100%;
   }
 
   .container-team{
@@ -3081,6 +3299,10 @@ input:invalid {
   .container-team{
     margin-top:20%;
   }
+
+  .video-content-about{
+    padding-top: 60%;
+  }
 }
 @media screen and (min-width: 1200px){
   .description-about{
@@ -3089,7 +3311,7 @@ input:invalid {
   }
 
   .video-content-about{
-    padding-top: 40%;
+    padding-top: 35%;
   }
 
   .container-team{
