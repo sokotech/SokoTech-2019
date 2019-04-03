@@ -1,0 +1,23 @@
+<section id="map">
+
+		<div class="container-fluid" id="container-map">
+
+			<div class="map">
+
+				<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+
+					<div id="box-map">
+
+						<div id='gmap_canvas'></div>
+
+					</div> <!--box-map-->
+
+			</div> <!--map-->
+
+			<script type='text/javascript'>
+				function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(41.42435,2.1888739999999416),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.42435,2.1888739999999416)});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+			</script>
+
+		</div> <!--container-fluid-->
+
+</section> <!-- map -->
