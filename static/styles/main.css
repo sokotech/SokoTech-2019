@@ -19,6 +19,19 @@ h1,h2,h3{
   padding-bottom: 20px;
 }
 
+.h2-title-pages {
+  font-weight: 800;
+  font-size: 2.5em;
+  padding-bottom: 5px;
+}
+
+.h4-page-subtitle {
+  font-size: 1.5em;
+  color: #f27222;
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
 a{
 	text-decoration: none !important;
 	color: #f27222 !important;
@@ -39,7 +52,7 @@ p{
 }
 
 .p-block-description {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.4em;
 }
 
@@ -59,41 +72,38 @@ hr{
  /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
-  h2{
-  	font-size: 20px;
+    h2{
+    	font-size: 20px;
+    }
+
+    p{
+    	font-size: 1em;
+    	color: #434343;
+    	line-height: 26px;
+    }
+
+    hr{
+    	margin-top: 10px;
+    	margin-bottom: 20px;
+      border-top: none;
+    }
+
+    button{
+    	font-size: 14px;
+    	margin: 5% 0 5% 0;
+    	padding: 7px 50px;
+    }
+
+    .header-section-home {
+      height: 650px;
+    }
+
+    .text-block-centered {
+      padding-top: 3%;
+      margin-bottom: 100%;
+    }
+
   }
-
-  p{
-  	font-size: 1em;
-  	color: #434343;
-  	line-height: 26px;
-  }
-
-  hr{
-  	margin-top: 10px;
-  	margin-bottom: 20px;
-    border-top: none;
-  }
-
-  button{
-  	font-size: 14px;
-  	margin: 5% 0 5% 0;
-  	padding: 7px 50px;
-  }
-
-  .header-section-home {
-    height: 650px;
-  }
-
-  .text-block-centered {
-    padding-top: 3%;
-    margin-bottom: 100%;
-  }
-
-}
-
-
-}
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
@@ -111,8 +121,32 @@ hr{
 
 /* ----- navbar ------- */
 
+.preheader{
+  background-color: #D2D0CE;
+  width: 100%;
+  height: 33px;
+}
+
+.social-media{
+  float: right;
+  /*padding: 0.5%;*/
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-bar-social-share-icon {
+  padding: 0 5px;
+}
+
+.top-bar-social-share-icon img{
+  width: 17px;
+}
+
 .navbar-home {
   border-bottom: none !important;
+    min-height: 120px !important;
 }
 
 .navbar-fixed-top {
@@ -123,9 +157,10 @@ hr{
 
 .navbar-nav > li > a {
   font-size: 1.2em;
-  font-weight: 300;
-  padding-top: 25px !important;
+  font-weight: 500;
+  padding-top: 31px !important;
   padding-bottom: 25px !important;
+  text-transform: uppercase;
 }
 
 .navbar-nav > li > a:hover{
@@ -193,21 +228,6 @@ hr{
 	width: 110px;
 }
 
-.preheader{
-  background-color: #D2D0CE;
-  width: 100%;
-  height: 40px;
-}
-
-.social-media{
-  float: right;
-  /*padding: 0.5%;*/
-  padding-right: 0.5%;
-  padding-left: 0.5%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-}
-
 .hero {
 	background-color: #fff;
   opacity: 1;
@@ -215,7 +235,7 @@ hr{
   background-image: url('../img/01/sokotech-01.jpg');
   background-blend-mode: multiply;
   /* Full height */
-  height: 100%;
+  height: 600px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -447,7 +467,7 @@ label {
   	position: absolute;
   	top: 25px;
   	left: 25px;
-  	width: 1px;
+  	width: 120px;
   }
 
   .overlay nav {
@@ -503,7 +523,7 @@ label {
   	position: absolute;
   	top: 25px;
   	left: 25px;
-  	width: 1px;
+  	width: 130px;
   }
 
   .overlay nav {
@@ -544,6 +564,10 @@ label {
     font-size: 1.1em;
   }
 
+    .hero {
+      height: 650px;
+    }
+
   .hero-description {
     display: block;
     position: relative;
@@ -565,6 +589,10 @@ label {
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
+
+  .hero {
+    height: 100%;
+  }
 
   .logo{
     width: 160px;
@@ -874,6 +902,20 @@ label {
   position: absolute;
 }
 
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  width:100%;
+-}
+
+#mc_embed_signup form {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #f27222;
+}
+
 .content-mail{
   margin: 5px 0 83px 0 !important;
 }
@@ -1147,13 +1189,7 @@ margin: 15% 0 0 0;
 	vertical-align: middle;
 	padding:8px 10px;
     }
-.icon{
-  width: 21px;
-  opacity: 0.7;
-  align-content: center;
-  vertical-align: middle;
-  margin: 3px;
-  }
+
 .footer_icon:hover{
 	opacity: 1;
 	transition: 0.3s;
@@ -1393,53 +1429,28 @@ input:invalid {
   }
 
   #footer-box-gray-right {
-    padding: 2% 0 0 15%;
+    padding: 200px 0 0 0;
   }
 
 }
 
 /* --------------------------- 3_education -------------------- 3_education ---------------------- */
 
-.test-header-description {
-	margin: 13% 0 20%;
+.header-description {
+	margin: 150px 0 0 0;
+  padding: 0 15px;
 }
 
-
-.titulo-video{
-  display: inline-block;
-  width: 100%;
-  background-color: #fff;
-  margin: 1% 0 5%;
-}
-.title{
-  height: 495px;
-}
-.tagline{
-  text-align: left;
-  padding-top: 5%;
-  padding-right: 5%;
-}
-.tagline h2{
-  font-size: 3em !important;
-}
-.tagline h4{
-  top: -20px;
-  display: inline-block;
-  padding: 5px;
-  background-color: #f27222;
-  color: white;
-  font-size: 1.3em !important;
-  font-weight: 300 !important;
-}
-.tagline p{
-  font-size: 1.2em;
-  font-weight: 400;
+.education-learning-areas, #project-tiles-title {
+  padding: 0 15px;
 }
 
-.video-content{
-  padding-top: 20%;
+.page-description-img{
+  padding: 10% 0;
+  display: none;
 }
-.video-content img{
+
+.page-description-img img{
   max-width: 100%;
   max-height: 100%;
 }
@@ -1452,8 +1463,11 @@ input:invalid {
   max-height: 100%;
 }
 
+#education-upcoming-workshops-title-container {
+  margin: 2% auto;
+}
+
 .education-upcoming-workshops {
-  margin-top: -35%;
 	background-color: #fff;
 }
 
@@ -1462,19 +1476,13 @@ input:invalid {
   margin-bottom: 7%;
 }
 
-/* .education-feedback {
-	background-color: #D2D0CE;
-  height: 50%;
-} */
-
 .text-block-centered-education{
   text-align: center;
   margin: -62% 0 !important;
 }
 
 .education-learning-areas{
-  text-align: center;
-
+  margin: 7% 0 9% 0;
 }
 
 .text-block-centered-upcoming-workshops{
@@ -1486,135 +1494,31 @@ input:invalid {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-@media screen and  (min-width: 300px) {
+@media screen and  (min-width: 576px) {
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .description-2{
-    padding: 0;
-    margin: -7% auto;
-  }
-
-  .video-content{
-    padding-top: 175%;
-  }
-
-  .img-content{
-    padding-top: 271%;
-    padding-bottom: 15%;
+  .header-description .education-learning-areas {
+  	padding: 0 25px;
   }
 
 }
 
-@media screen and  (min-width: 350px) {
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .description-2{
-    padding: 0;
-    margin: -7% auto;
-  }
-
-  .video-content{
-    padding-top: 90%;
-  }
-
-  .img-content{
-    padding-top: 90%;
-    padding-bottom: 15%;
-  }
-
-}
-
-@media screen and  (min-width: 400px) {
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .tagline{
-    text-align: left;
-    padding-top: 5%;
-    padding-right: 5%;
-  }
-
-  .description-2{
-    padding: 0;
-    margin: -5% auto;
-  }
-
-  .video-content{
-    padding-top: 80%;
-  }
-
-  .img-content{
-    padding-top: 50%;
-    padding-bottom: 15%;
-  }
-
-}
-
-@media screen and  (min-width: 500px) {
-
-  .description{
-    padding: 0;
-    margin: 30% auto;
-  }
-
-  .tagline{
-    text-align: left;
-    padding-top: 0%;
-    padding-right: 5%;
-  }
-
-  .video-content{
-    padding-top: 20%;
-  }
-
-  .img-content{
-    padding-top: 10%;
-    padding-bottom: 15%;
-  }
-
-}
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
-  .tagline{
-    text-align: left;
-    padding-top: 15%;
-    padding-right: 5%;
+  .header-description {
+  	margin: 170px 0 0 0;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
-
-  .video-content{
-    padding-top: 60%;
-  }
-
-  .description-2{
-    padding: 0;
-    margin: 0% auto;
-  }
-
-  .img-content{
-    padding-top: 30%;
-    padding-bottom: 15%;
+  .page-description-img{
+    padding: 55px 0;
   }
 
   .education-upcoming-workshops {
-    margin-top: -25%;
   	background-color: #fff;
+  }
+
+   #project-tiles-title {
+    padding: 0;
   }
 
 }
@@ -1622,23 +1526,21 @@ input:invalid {
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
+  .header-description {
+  	margin: 200px 0 0 0;
   }
 
-  .video-content{
-    padding-top: 35%;
+  .page-description-img{
+    padding-top: 80px;
+    display: block;
   }
 
-  .img-content{
-    padding-top: 12%;
-    padding-bottom: 15%;
+  .page-description-img{
+    padding-left: 25px;
   }
 
   .education-upcoming-workshops {
-    margin-top: -35%;
-  	background-color: #fff;
+    padding: 0;
   }
 
 }
@@ -1646,28 +1548,14 @@ input:invalid {
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
+  .page-description-img{
+    padding-top: 20px;
+
   }
 
-  .tagline{
-    text-align: left;
-    padding-top: 5%;
-    padding-right: 5%;
-  }
 
-  .video-content{
-    padding-top: 10%;
-  }
-
-  .img-content{
-    padding-top: 0%;
-    padding-bottom: 15%;
-  }
 
   .education-upcoming-workshops {
-    margin-top: -35%;
   	background-color: #fff;
   }
 
@@ -1719,10 +1607,7 @@ input:invalid {
 /* No media query since this is the default in Bootstrap */
 @media screen and  (min-width: 300px) {
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
+
 
   .video-content-events{
     padding-top: 170%;
@@ -1739,10 +1624,6 @@ input:invalid {
 
 @media screen and  (min-width: 350px) {
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
 
   .video-content-events{
     padding-top: 65%;
@@ -1759,10 +1640,6 @@ input:invalid {
 
 @media screen and  (min-width: 400px) {
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
 
   .video-content-events{
     padding-top: 40%;
@@ -1779,10 +1656,6 @@ input:invalid {
 
 @media screen and  (min-width: 500px) {
 
-  .description{
-    padding: 0;
-    margin: 30% auto;
-  }
 
   .video-content-events{
     padding-top: 0%;
@@ -1792,10 +1665,7 @@ input:invalid {
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
+
 
   .video-content-events{
     padding-top: 50%;
@@ -1806,10 +1676,6 @@ input:invalid {
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
 
   .video-content-events{
     padding-top: 30%;
@@ -1820,10 +1686,7 @@ input:invalid {
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
+
 
   .video-content-events{
     padding-top: 12%;
@@ -1838,156 +1701,33 @@ input:invalid {
 
 }
 
-/* --------------------------- 5_medialab ------------------------------ 5_medialab ------------------------ */
+/* ----- Medialab - COMMUNICATION----- */
 
-.medialab-work-method {
-	background-color: #fff;
-  padding: 5% 0;
-  margin: 0% 0;
-  text-align: center;
+.medialab-projects-areas, .events-projects-area, .fablab-projects-area, .space-areas {
+  margin-bottom: 15%;
 }
 
-.text-block-centered-medialab{
-  text-align: center;
-  margin-top: -70%;
-}
 
-.medialab-photo-buttons{
-  text-align: center;
-  margin-top: -22%;
-}
+@media screen and (min-width: 576px){
 
-/* .medialab-more-info{
-  text-align: center;
-  margin-top: 0%;
-  height: 500px !important;
-} */
-
-.text-block-centered-lastest-projects{
-  text-align: center;
-  margin-top: 100%;
-}
-
-.medialab-video-content img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-@media screen and (min-width: 300px){
-  .medialab-more-info{
-    text-align: center;
-    margin-top: 0%;
-    height: 700px !important;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .medialab-video-content{
-    padding-top: 180%;
-  }
-}
-
-@media screen and (min-width: 350px){
-  .medialab-more-info{
-    text-align: center;
-    margin-top: 0%;
-    height: 700px !important;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .medialab-video-content{
-    padding-top: 120%;
-  }
-}
-
-@media screen and (min-width: 400px){
-  .medialab-more-info{
-    text-align: center;
-    margin-top: 0%;
-    height: 700px !important;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .medialab-video-content{
-    padding-top: 80%;
-  }
-}
-
-@media screen and (min-width: 500px){
-  .description{
-    padding: 0;
-    margin: 30% auto;
-  }
-
-  .medialab-video-content{
-    padding-top: 20%;
-  }
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-  .medialab-more-info{
-    text-align: center;
-    margin-top: 0%;
-    height: 500px !important;
-  }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
-
-  .medialab-video-content{
-    padding-top: 60%;
-  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-  .medialab-more-info{
-    text-align: center;
-    margin-top: 0%;
-    height: 500px !important;
+
+  .medialab-projects-areas, .events-projects-area, .fablab-projects-area, .space-areas {
+    margin-bottom: 10%;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
-
-  .medialab-video-content{
-    padding-top: 40%;
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-  .medialab-more-info{
-    text-align: center;
-    margin-top: 0%;
-    height: 500px !important;
-  }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
-
-  .medialab-video-content{
-    padding-top: 15%;
-  }
 }
 
 /* --------------------------- 6_fablab ------------------------------ 6_fablab ------------------------ */
@@ -2032,10 +1772,6 @@ input:invalid {
     height: 700px;
   }
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
 
   .video-content-fablab{
     padding-top: 150%;
@@ -2049,10 +1785,7 @@ input:invalid {
     height: 700px;
   }
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
+
 
   .video-content-fablab{
     padding-top: 55%;
@@ -2066,10 +1799,7 @@ input:invalid {
     height: 700px;
   }
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
+
 
   .video-content-fablab{
     padding-top: 40%;
@@ -2083,10 +1813,7 @@ input:invalid {
     height: 700px;
   }
 
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
+
 
   .video-content-fablab{
     padding-top: 0%;
@@ -2100,10 +1827,7 @@ input:invalid {
     height: 700px;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
+
 
   .video-content-fablab{
     padding-top: 50%;
@@ -2118,10 +1842,7 @@ input:invalid {
     height: 530px;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
+
 
   .video-content-fablab{
     padding-top: 20%;
@@ -2136,10 +1857,7 @@ input:invalid {
     height: 530px;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
+
 
   .video-content-fablab{
     padding-top: 7%;
@@ -2148,117 +1866,9 @@ input:invalid {
 
 /* --------------------------- 7_space ------------------------------ 7_space ------------------------ */
 
-.space-details {
-  background-color: #fff;
-  padding: 5% 0;
-  margin: -27% 0;
-  text-align: center;
-}
 
-.text-block-centered-space{
-  text-align: center;
-  margin-top: -70%;
-}
+@media screen and  (min-width: 576px) {
 
-.space-more-info{
-  text-align: center;
-  margin-top: 35%;
-  height: 500px;
-}
-
-.video-content-space{
-  padding-top: 20%;
-}
-.video-content-space img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-@media screen and  (min-width: 300px) {
-  .space-more-info{
-    text-align: center;
-    margin-top: 35%;
-    height: 700px;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .video-content-space{
-    padding-top: 260%;
-  }
-}
-
-@media screen and  (min-width: 350px) {
-  .space-more-info{
-    text-align: center;
-    margin-top: 35%;
-    height: 700px;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .video-content-space{
-    padding-top: 95%;
-  }
-}
-
-@media screen and  (min-width: 300px) {
-  .space-more-info{
-    text-align: center;
-    margin-top: 35%;
-    height: 700px;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .video-content-space{
-    padding-top: 80%;
-  }
-}
-
-@media screen and  (min-width: 400px) {
-  .space-more-info{
-    text-align: center;
-    margin-top: 35%;
-    height: 700px;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .video-content-space{
-    padding-top: 80%;
-  }
-}
-
-@media screen and  (min-width: 500px) {
-  .space-more-info{
-    text-align: center;
-    margin-top: 35%;
-    height: 700px;
-  }
-
-  .description{
-    padding: 0;
-    margin: 55% auto;
-  }
-
-  .video-content-space{
-    padding-top: 40%;
-  }
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
@@ -2268,10 +1878,7 @@ input:invalid {
     height: 500px;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
+
 
   .video-content-space{
     padding-top: 70%;
@@ -2286,10 +1893,6 @@ input:invalid {
     height: 500px;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
 
   .video-content-space{
     padding-top: 30%;
@@ -2304,10 +1907,6 @@ input:invalid {
     height: 500px;
   }
 
-  .description{
-    padding: 0;
-    margin: 0% auto;
-  }
 
   .video-content-space{
     padding-top: 20%;
@@ -2315,6 +1914,10 @@ input:invalid {
 }
 
 /* --------------------------- About ------------------------------ About ------------------------- */
+
+#team-container {
+  margin-top: 10%;
+}
 
 .description-about{
   padding: 0;
@@ -2410,6 +2013,7 @@ input:invalid {
   }
 }
 @media screen and (min-width: 768px){
+
   .description-about{
     padding: 0;
     margin: 20% auto;
@@ -2424,6 +2028,11 @@ input:invalid {
   }
 }
 @media screen and (min-width: 992px){
+
+    #team-container {
+      margin-top: 5%;
+    }
+
   .description-about{
     padding: 0;
     margin: 10% auto;
