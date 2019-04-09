@@ -1775,7 +1775,7 @@ label {
 
 #history-pic {
   padding-top: 5%;
-  padding-left: 12%;
+  padding-left: 9%;
   overflow: hidden;
 }
 
@@ -1810,7 +1810,7 @@ label {
 	font-weight: 400;
 	line-height: 28px;
 	margin: 0px;
-	padding-top: 22px;
+	padding-top: 38px;
 }
 
 .h_i-1{
@@ -1852,20 +1852,30 @@ label {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+@media screen and  (min-width: 350px) {
+  .bubble-h{
+    margin-top: 15%;
+  }
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
-
+  .bubble-h{
+    margin-top: 3%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
+  .bubble-h{
+    margin-top: 1%;
+  }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
+  .bubble-h{
+    margin-top: -2%;
+  }
 
 }
