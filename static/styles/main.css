@@ -1757,7 +1757,7 @@ label {
 /* --------------------------- 8_history ------------------------------ 8_history ------------------------- */
 #history-timeline-container {
   padding: 0 0 5% 0;
-  margin-top: 17%;
+  margin-top: 3%;
 }
 
 #hist_img{
@@ -1870,11 +1870,20 @@ label {
   .bubble-h{
     margin-top: 25%;
   }
+  #history-timeline-container {
+    padding: 0 0 5% 0;
+    margin-top: -15%;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
   .bubble-h{
     margin-top: 3%;
+  }
+
+  #history-timeline-container {
+    padding: 0 0 5% 0;
+    margin-top: 0%;
   }
 }
 
@@ -1882,6 +1891,11 @@ label {
 @media screen and  (min-width: 992px) {
   .bubble-h{
     margin-top: 1%;
+  }
+
+  #history-timeline-container {
+    padding: 0 0 5% 0;
+    margin-top: 3%;
   }
 
 }
@@ -1892,4 +1906,8 @@ label {
     margin-top: -2%;
   }
 
+  #history-timeline-container {
+    padding: 0 0 5% 0;
+    margin-top: 5%;
+  }
 }
