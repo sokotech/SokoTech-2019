@@ -149,14 +149,15 @@ hr{
 }
 
 .navbar-home {
-  border-bottom: none !important;
-    min-height: 120px !important;
+  border-bottom: 1px solid rgb(226, 226, 226) !important;
+  min-height: 120px !important;
+  background-color: #fff !important;
+  opacity: 0.95;
 }
 
 .navbar-fixed-top {
   z-index: 15 !important;
   display: block;
-  background-color: #fff !important;
 }
 
 .navbar-nav > li > a {
@@ -180,10 +181,6 @@ hr{
   width: 130px !important;
 }
 
-.navbar-default {
-    border-color: #F27222 !important;
-}
-
 .dropdown-menu {
     min-width: 88px !important;
 }
@@ -205,23 +202,54 @@ hr{
     background-color: #F27222 !important;
 }
 
+.breadcrumb-bar {
+  margin: 150px 0 0 0;
+}
+
+
 .breadcrumb {
     padding: 3px 16px !important;
     margin-bottom: 0px !important;
     list-style: none;
-    background-color: #F27222 !important;
+    background-color: transparent !important;
     border-radius: 0 !important;
-    text-align: right;
+}
+
+.breadcrumb li {
+  color: #F27222;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .breadcrumb li a {
-    color: white !important;
-    font-size: 0.85em;
+    font-size: 1em;
+    font-weight: 500;
 }
 
-.breadcrumb-bar {
-  background-color: #F27222;
+.breadcrumb li a:hover {
+    color: #F27222 !important;
 }
+
+ /* Small devices (tablets, 768px and up) */
+@media screen and  (min-width: 768px) {
+
+    .breadcrumb-bar > .container {
+      padding: 0;
+    }
+
+  }
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and  (min-width: 992px) {
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and  (min-width: 1200px) {
+
+}
+
 
 /* ----- 1_0_home_Header ---------- */
 
@@ -624,7 +652,7 @@ label {
     display: block;
     position: relative;
     top: 230px;
-    margin: 0 9% 0 9%;
+    margin: 0 27% 0 9%;
   }
 
   .h1-hero-description {
@@ -678,7 +706,7 @@ label {
   }
 
   .hero-description {
-    margin: 0 27% 0 9%;
+    margin: 0 45% 0 9%;
   }
 
 }
@@ -1102,7 +1130,7 @@ label {
 
   #footer-box-gray-right {
       padding-left: 150px;
-      margin: 0;
+      margin: 17px 0 0 0;
   }
 
   .footer-social-share-item img {
@@ -1120,7 +1148,7 @@ label {
 /* --------------------------- 3_education -------------------- 3_education ---------------------- */
 
 .header-description {
-	margin: 150px 0 0 0;
+	margin: 25px 0 0 0;
   padding: 0 15px;
 }
 
@@ -1188,10 +1216,6 @@ label {
 /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
-  .header-description {
-  	margin: 170px 0 0 0;
-  }
-
   .page-description-img{
     padding: 55px 0;
   }
@@ -1208,10 +1232,6 @@ label {
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
-  .header-description {
-  	margin: 200px 0 0 0;
-  }
 
   .page-description-img{
     padding-top: 80px;
@@ -1235,8 +1255,6 @@ label {
     padding-top: 20px;
 
   }
-
-
 
   .education-upcoming-workshops {
   	background-color: #fff;
@@ -1688,7 +1706,7 @@ label {
 @media screen and (min-width: 400px){
   .description-about{
     padding: 0;
-    margin: 35% auto;
+    margin: 25px 0 0 0;
   }
 
   .video-content-about{
@@ -1699,7 +1717,7 @@ label {
 
   .description-about{
     padding: 0;
-    margin: 20% auto;
+    margin: 25px 0 0 0;
   }
 
   .video-content-about{
@@ -1712,13 +1730,8 @@ label {
 }
 @media screen and (min-width: 992px){
 
-    #team-container {
-      margin-top: 5%;
-    }
-
-  .description-about{
-    padding: 0;
-    margin: 10% auto;
+  #team-container {
+    margin-top: 5%;
   }
 
   .container-team{
@@ -1730,10 +1743,7 @@ label {
   }
 }
 @media screen and (min-width: 1200px){
-  .description-about{
-    padding: 0;
-    margin: 13% auto;
-  }
+
 
   .video-content-about{
     padding-top: 35%;
